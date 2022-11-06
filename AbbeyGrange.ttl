@@ -1168,21 +1168,21 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "Lady Brackenstall could not move"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Lady_Brackenstall> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Lady_Brackenstall> ;
-    kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/63a> .
+    kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/063a> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/063>
     rdf:type    kgc:Situation ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/cannotMove> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/・hasProperty→状態を表す>
     rdf:type    kgc:Situation ;
     kgc:   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/060> .
-<http://kgc.knowledge-graph.jp/data/AbbeyGrange/63a>
+<http://kgc.knowledge-graph.jp/data/AbbeyGrange/063a>
     rdf:type    kgc:Statement ;
     kgc:source  "レディー・ブラックンストールは声を立てることができなかった"@ja ;
     kgc:source  "Lady Brackenstall could not make a voice"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Lady_Brackenstall> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Lady_Brackenstall> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/cannotSpeak> .
-<http://kgc.knowledge-graph.jp/data/AbbeyGrange/63a>
+<http://kgc.knowledge-graph.jp/data/AbbeyGrange/063a>
     rdf:type    kgc:Situation ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/064> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/064>

@@ -222,7 +222,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Sutherland> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Pavement_opposite> ;
     kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/005> .
-<http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/04a>
+<http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/004a>
     rdf:type    kgc:Situation ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/wear> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Sutherland> ;
@@ -364,8 +364,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/want> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Sutherland> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/21a> .
-<http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/21a>
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/021a> .
+<http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/021a>
     rdf:type    kgc:Statement ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/consult> ;
@@ -471,11 +471,11 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "給仕服の少年が告げる"@ja ;
     kgc:source  "A boy at the service uniform tells Sutherland"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/say> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/33a> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/033a> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/034> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Service_Boy> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/035> .
-<http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/33a>
+<http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/033a>
     rdf:type    kgc:Statement ;
     kgc:source  "女がサザランドである"@ja ;
     kgc:source  "The woman is Sutherland"@en ;
@@ -751,8 +751,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Sutherland> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notWant> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Windybank> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/67a> .
-<http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/67a>
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/067a> .
+<http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/067a>
     rdf:type    kgc:Statement ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Sutherland> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/visit> ;
@@ -788,7 +788,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Sutherland> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/healthy> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/mother_of_Sutherland> .
-<http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/71a>
+<http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/071a>
     rdf:type    kgc:Statement ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Sutherland> ;
     kgc:hadPredicate   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/die> ;
@@ -859,8 +859,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/sell> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Sutherland> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/shop_of_father_of_Sutherland> ;
-    kgc:then   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/79a> .
-<http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/79a>
+    kgc:then   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/079a> .
+<http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/079a>
     rdf:type    kgc:Statement ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Sutherland> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/get> ;
@@ -1198,7 +1198,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/go> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Sutherland> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/mother_of_Sutherland> ;
-    kgc:after   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/71a> ;
+    kgc:after   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/071a> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/dance> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/117> .
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/117>

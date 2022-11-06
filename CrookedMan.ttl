@@ -374,7 +374,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/CrookedMan/Holmes> ;
     kgc:time  "1887-07-08T00:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/CrookedMan/1887-07-08> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/22b> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/022b> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/023> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/024> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/025> ;
@@ -390,11 +390,11 @@ kgc:Thought rdf:type owl:Class ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/035> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/036> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/037> .
-<http://kgc.knowledge-graph.jp/data/CrookedMan/22a>
+<http://kgc.knowledge-graph.jp/data/CrookedMan/022a>
     rdf:type    kgc:Situation ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Murphy> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/member_of_Royal_Mallows> .
-<http://kgc.knowledge-graph.jp/data/CrookedMan/22b>
+<http://kgc.knowledge-graph.jp/data/CrookedMan/022b>
     rdf:type    kgc:Statement ;
     kgc:source  "バークリは幸福であった"@ja ;
     kgc:source  "Berkeley was happy."@en ;
@@ -619,7 +619,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/hear> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/coachman> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/052> .
-<http://kgc.knowledge-graph.jp/data/CrookedMan/51a>
+<http://kgc.knowledge-graph.jp/data/CrookedMan/051a>
     rdf:type    kgc:Situation ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/bring> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/coachman> ;
@@ -865,8 +865,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/knock> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Jane> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/door_of_living_room> ;
-    kgc:then   <http://kgc.knowledge-graph.jp/data/CrookedMan/82a> .
-<http://kgc.knowledge-graph.jp/data/CrookedMan/82a>
+    kgc:then   <http://kgc.knowledge-graph.jp/data/CrookedMan/082a> .
+<http://kgc.knowledge-graph.jp/data/CrookedMan/082a>
     rdf:type    kgc:Situation ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notRespond> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Berkeley> ;
