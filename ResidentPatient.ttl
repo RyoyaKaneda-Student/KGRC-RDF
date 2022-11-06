@@ -596,7 +596,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:time  "1888-11-15T00:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/1888-11-15> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/032> .
-<http://kgc.knowledge-graph.jp/data/ResidentPatient/31a>
+<http://kgc.knowledge-graph.jp/data/ResidentPatient/031a>
     rdf:type    kgc:Situation ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/study_of_Percy_Trevelyan> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/sclerosis> .

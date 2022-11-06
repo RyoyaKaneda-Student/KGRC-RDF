@@ -222,15 +222,15 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silver_Blaze> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/descendant_of_Isonomy> ;
     kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/SilverBlaze/004> .
-<http://kgc.knowledge-graph.jp/data/SilverBlaze/03a>
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/003a>
     rdf:type    kgc:Situation ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silver_Blaze> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/Horse> .
-<http://kgc.knowledge-graph.jp/data/SilverBlaze/03b>
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/003b>
     rdf:type    kgc:Situation ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Isonomy> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/Horse> .
-<http://kgc.knowledge-graph.jp/data/SilverBlaze/03c>
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/003c>
     rdf:type    kgc:Situation ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Isonomy> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/famous> .
@@ -356,11 +356,11 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/John_Straker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/retire> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Jockey> ;
-    kgc:why   <http://kgc.knowledge-graph.jp/data/SilverBlaze/18a> ;
+    kgc:why   <http://kgc.knowledge-graph.jp/data/SilverBlaze/018a> ;
     kgc:time  "1895-04-01T00:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SilverBlaze/1895-04-01> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/SilverBlaze/019> .
-<http://kgc.knowledge-graph.jp/data/SilverBlaze/18a>
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/018a>
     rdf:type    kgc:Situation ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/John_Straker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/become> ;
@@ -510,7 +510,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:time  "1896-04-01T20:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SilverBlaze/1896-04-01T20:00> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/SilverBlaze/036> .
-<http://kgc.knowledge-graph.jp/data/SilverBlaze/35a>
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/035a>
     rdf:type    kgc:Situation ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Horse> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/exercise> ;
@@ -713,9 +713,9 @@ kgc:Thought rdf:type owl:Class ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Fitzroy_Simpson> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Fitzroy_Simpson> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/try> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/SilverBlaze/58a> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/SilverBlaze/058a> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/SilverBlaze/059> .
-<http://kgc.knowledge-graph.jp/data/SilverBlaze/58a>
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/058a>
     rdf:type    kgc:Situation ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Fitzroy_Simpson> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/camp> ;
@@ -907,8 +907,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Fitzroy_Simpson> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/come> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Stable> ;
-    kgc:then   <http://kgc.knowledge-graph.jp/data/SilverBlaze/78a> .
-<http://kgc.knowledge-graph.jp/data/SilverBlaze/78a>
+    kgc:then   <http://kgc.knowledge-graph.jp/data/SilverBlaze/078a> .
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/078a>
     rdf:type    kgc:Situation ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/hear> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Forecast_of_horse_racing> ;
@@ -965,9 +965,9 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "Fitzroy Simpson tried to prize out a reliable forecast of horse racing from Ned Hunter"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Fitzroy_Simpson> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/try> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/SilverBlaze/84a> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/SilverBlaze/084a> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/SilverBlaze/085> .
-<http://kgc.knowledge-graph.jp/data/SilverBlaze/84a>
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/084a>
     rdf:type    kgc:Situation ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/hear> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Bets_of_horse_racing> ;

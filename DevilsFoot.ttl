@@ -1149,7 +1149,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DevilsFoot/1870-04-01> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/DevilsFoot/house_of_Tin_miner> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/DevilsFoot/098> .
-<http://kgc.knowledge-graph.jp/data/DevilsFoot/97a>
+<http://kgc.knowledge-graph.jp/data/DevilsFoot/097a>
     rdf:type    kgc:Situation ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/Tin_miner> ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/DevilsFoot/George> ;
