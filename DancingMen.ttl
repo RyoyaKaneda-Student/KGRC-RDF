@@ -207,11 +207,11 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "キュービットは文字の意味を知りたい"@ja ;
     kgc:source  "Cubitt wants to know the meaning of Dancing dolls A"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/want> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/02a> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/002a> ;
     kgc:time  "1898-07-27T00:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/DancingMen/1898-07-27> .
-<http://kgc.knowledge-graph.jp/data/DancingMen/02a>
+<http://kgc.knowledge-graph.jp/data/DancingMen/002a>
     rdf:type    kgc:Situation ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/know> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/Meaning_of_Dancing_dolls_A> ;
@@ -685,14 +685,14 @@ kgc:Thought rdf:type owl:Class ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/drawn> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/DancingMen/Board_2> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Dancing_dolls_D> .
-<http://kgc.knowledge-graph.jp/data/DancingMen/62a>
+<http://kgc.knowledge-graph.jp/data/DancingMen/062a>
     rdf:type    kgc:Situation ;
     kgc:source  "踊る人形Dは板1に描かれていた"@ja ;
     kgc:source  "The dancing dolls C are drawn on the Board 1"@en ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/drawn> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/DancingMen/Board_1> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Dancing_dolls_C> .
-<http://kgc.knowledge-graph.jp/data/DancingMen/62b>
+<http://kgc.knowledge-graph.jp/data/DancingMen/062b>
     rdf:type    kgc:Situation ;
     kgc:source  "板1と板2は異なる"@ja ;
     kgc:source  "The Board 1 is different with the Board 2"@en ;
@@ -715,8 +715,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/stop> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Elsie> ;
-    kgc:why   <http://kgc.knowledge-graph.jp/data/DancingMen/64a> .
-<http://kgc.knowledge-graph.jp/data/DancingMen/64a>
+    kgc:why   <http://kgc.knowledge-graph.jp/data/DancingMen/064a> .
+<http://kgc.knowledge-graph.jp/data/DancingMen/064a>
     rdf:type    kgc:Statement ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DancingMen/Cubitt> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/protect> ;

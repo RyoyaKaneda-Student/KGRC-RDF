@@ -384,7 +384,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Stoke_Moran> ;
     kgc:time  "1883-04-01T10:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-04-01T10> .
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/20a>
+<http://kgc.knowledge-graph.jp/data/SpeckledBand/020a>
     rdf:type    kgc:Situation ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/live> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott> ;
