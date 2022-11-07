@@ -2184,7 +2184,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Break_of_cord_of_bell> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/cut> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/3_inch> ;
-    kgc:from   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/ベルの紐の先端> .
+    kgc:from   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/top_of_cord_of_bell> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/215>
     rdf:type    kgc:Thought ;
     kgc:source  "犯人はベルの紐を必要とした"@ja ;
@@ -4879,9 +4879,9 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Blood>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Sir_Eustace_Brackenstall>.
-<http://kgc.knowledge-graph.jp/data/AbbeyGrange/ベルの紐の先端>
-    rdfs:label     "top of cord of bell"@ja;
-    rdfs:label     "ベルの紐の先端"@en;
+<http://kgc.knowledge-graph.jp/data/AbbeyGrange/top_of_cord_of_bell>
+    rdfs:label     "top of cord of bell"@en;
+    rdfs:label     "ベルの紐の先端"@ja;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/cost>
     rdf:type    kgc:Action;
