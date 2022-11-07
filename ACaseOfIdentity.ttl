@@ -1261,7 +1261,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/go> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Sutherland> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Dance_party> .
-<http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/122>
+<http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/122x>
     rdf:type    kgc:Situation ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/123> .
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/123>

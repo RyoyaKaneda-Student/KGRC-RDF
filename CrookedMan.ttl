@@ -1484,7 +1484,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "Morrison knows the moody cause of Nancy."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/know> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/Morrison> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/cause_of_161> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/cause_of_bad_moody> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/164>
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズは以下を思った"@ja ;
@@ -2286,7 +2286,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/suspect> ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/CrookedMan/Nancy> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/criminal_of_incident> .
-<http://kgc.knowledge-graph.jp/data/CrookedMan/255>
+<http://kgc.knowledge-graph.jp/data/CrookedMan/255x>
     rdf:type    kgc:Situation ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/police> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/253>
@@ -5365,12 +5365,12 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/predicate/GoUp>
     rdfs:label     "GoUp"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/CrookedMan/cause_of_161>
+<http://kgc.knowledge-graph.jp/data/CrookedMan/cause_of_bad_moody>
     rdfs:label     "ナンシィの不機嫌の原因"@ja;
-    rdfs:label     "cause of 161"@en;
+    rdfs:label     "cause of bad moody"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/CrookedMan/cause>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/CrookedMan/161>.
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/CrookedMan/bad_moody>.
 <http://kgc.knowledge-graph.jp/data/predicate/collect>
     rdf:type    kgc:Action;
     rdfs:label     "集める"@ja;
@@ -5489,8 +5489,9 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "立ち会う"@ja;
     rdfs:label     "attend"@en.
-<http://kgc.knowledge-graph.jp/data/CrookedMan/161>
-    rdfs:label     "161"@en;
+<http://kgc.knowledge-graph.jp/data/CrookedMan/bad_moody>
+    rdfs:label     "bad moody"@en;
+    rdfs:label     "不機嫌"@ja;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/CrookedMan/room>
     rdfs:label     "room"@en;

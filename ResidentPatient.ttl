@@ -429,19 +429,15 @@ kgc:Thought rdf:type owl:Class ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/ResidentPatient/030> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/028>
     rdf:type    kgc:Situation ;
-    kgc:source  "妙な事件がパーシィ・トリヴェリアンの自宅で立て続けに起こった"@ja .
-<http://kgc.knowledge-graph.jp/data/ResidentPatient/028>
-    rdf:type    kgc:Statement ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/StrangeIncident> .
-<http://kgc.knowledge-graph.jp/data/ResidentPatient/028>
-    rdf:type    kgc:Situation ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/happen> .
-<http://kgc.knowledge-graph.jp/data/ResidentPatient/028>
-    rdf:type    kgc:Situation ;
+    kgc:source  "妙な事件がパーシィ・トリヴェリアンの自宅で立て続けに起こった"@ja ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/happen> ;
     kgc:how   <http://kgc.knowledge-graph.jp/data/ResidentPatient/In_quick_succession> ;
     kgc:time  "1889-10-01T00:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/1889-10-01> .
+<http://kgc.knowledge-graph.jp/data/ResidentPatient/028x>
+    rdf:type    kgc:Statement ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/StrangeIncident> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/029>
     rdf:type    kgc:Statement ;
     kgc:source  "パーシィ・トリヴェリアンは事件のことを相談に来た"@ja ;

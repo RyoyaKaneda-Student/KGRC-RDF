@@ -926,10 +926,10 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "キュービットは心臓を撃ち抜かれている"@ja ;
     kgc:source  "Cubitt is shot through the heart"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DancingMen/Local_doctor> .
-<http://kgc.knowledge-graph.jp/data/DancingMen/090>
+<http://kgc.knowledge-graph.jp/data/DancingMen/090x>
     rdf:type    kgc:Situation ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Criminal> .
-<http://kgc.knowledge-graph.jp/data/DancingMen/091>
+<http://kgc.knowledge-graph.jp/data/DancingMen/091x>
     rdf:type    kgc:Situation ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/shoot> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/heart_of_Cubitt> .
@@ -1135,10 +1135,10 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "女中は火薬のにおいを嗅いだ"@ja ;
     kgc:source  "The maid smelled the gunpowder"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/smell> .
-<http://kgc.knowledge-graph.jp/data/DancingMen/115>
+<http://kgc.knowledge-graph.jp/data/DancingMen/115x>
     rdf:type    kgc:Situation ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Maid> .
-<http://kgc.knowledge-graph.jp/data/DancingMen/116>
+<http://kgc.knowledge-graph.jp/data/DancingMen/116x>
     rdf:type    kgc:Situation ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/Smell_of_gunfire> ;
     kgc:time  "1898-08-13T03:02:00"^^xsd:dateTime ;
@@ -1192,10 +1192,10 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "キュービットは正面から心臓を撃たれた"@ja ;
     kgc:source  "Cubitt was shot in the heart from the front"@en .
-<http://kgc.knowledge-graph.jp/data/DancingMen/122>
+<http://kgc.knowledge-graph.jp/data/DancingMen/122x>
     rdf:type    kgc:Situation ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DancingMen/Criminal> .
-<http://kgc.knowledge-graph.jp/data/DancingMen/123>
+<http://kgc.knowledge-graph.jp/data/DancingMen/123x>
     rdf:type    kgc:Situation ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/shoot> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DancingMen/heart_of_Cubitt> ;

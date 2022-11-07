@@ -713,10 +713,10 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "トリジェニス家は荒らされなかった"@ja ;
     kgc:source  "The Trigenis family was not ruined"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Roundhay> .
-<http://kgc.knowledge-graph.jp/data/DevilsFoot/053>
+<http://kgc.knowledge-graph.jp/data/DevilsFoot/053x>
     rdf:type    kgc:Situation ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/DevilsFoot/Someone> .
-<http://kgc.knowledge-graph.jp/data/DevilsFoot/054>
+<http://kgc.knowledge-graph.jp/data/DevilsFoot/054x>
     rdf:type    kgc:Situation ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notRuin> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/DevilsFoot/House_of_Trigenis> ;
