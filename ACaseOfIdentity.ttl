@@ -2949,7 +2949,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "手袋は鼠色だった"@ja ;
     kgc:source  "The gloves were scarlet"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Watson> ;
-    kgc:   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/dark_blue> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/dark_blue> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/gloves> .
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/313>
     rdf:type    kgc:Statement ;
@@ -3690,7 +3690,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "ウィンディバンクは中背である"@ja ;
     kgc:source  "Windibank is medium-sized"@en ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/ｍedium_height> ;
+    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/medium_height> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Windibank> .
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/403>
     rdf:type    kgc:Situation ;
@@ -8168,7 +8168,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "手紙"@ja;
     rdfs:label     "letter"@en.
-<http://kgc.knowledge-graph.jp/data/predicate/ｍedium_height>
+<http://kgc.knowledge-graph.jp/data/predicate/medium_height>
     rdf:type    kgc:Property;
     rdfs:label     "中背である"@ja;
     rdfs:label     "ｍedium height"@en.
