@@ -434,8 +434,6 @@ kgc:Thought rdf:type owl:Class ;
     kgc:how   <http://kgc.knowledge-graph.jp/data/ResidentPatient/In_quick_succession> ;
     kgc:time  "1889-10-01T00:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/ResidentPatient/1889-10-01> .
-<http://kgc.knowledge-graph.jp/data/ResidentPatient/028x>
-    rdf:type    kgc:Statement ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Blessington> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/StrangeIncident> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/029>
@@ -1653,12 +1651,8 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/153>
     rdf:type    kgc:Situation ;
     kgc:source  "触られたものや盗まれたものはなかった"@ja ;
-    kgc:source  "Nothing was touched or stolen"@en .
-<http://kgc.knowledge-graph.jp/data/ResidentPatient/153>
-    rdf:type    kgc:Situation ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/touched> .
-<http://kgc.knowledge-graph.jp/data/ResidentPatient/153>
-    rdf:type    kgc:Situation ;
+    kgc:source  "Nothing was touched or stolen"@en ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/touched> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/stolen> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/notExist> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/154>
@@ -1941,9 +1935,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/186>
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズはもの問いたげな様子であった"@ja ;
-    kgc:source  "Holmes seemed to be asking"@en .
-<http://kgc.knowledge-graph.jp/data/ResidentPatient/186>
-    rdf:type    kgc:Situation ;
+    kgc:source  "Holmes seemed to be asking"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Holmes> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/seem> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/186a> ;
@@ -2059,12 +2051,10 @@ kgc:Thought rdf:type owl:Class ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Stratagem> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/199>
     rdf:type    kgc:Situation ;
-    kgc:source  "初老の男は強硬症の振りをした"@ja ;
+    kgc:source  "初老の男は強硬症のふりをした"@ja ;
     kgc:source  "An elderly man was pretending of catalepsy"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Elderly_man> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/pretend> .
-<http://kgc.knowledge-graph.jp/data/ResidentPatient/199>
-    rdf:type    kgc:Situation ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/pretend> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ResidentPatient/catalepsy> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/200>
     rdf:type    kgc:Situation ;

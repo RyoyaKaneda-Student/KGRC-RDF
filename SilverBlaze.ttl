@@ -1365,12 +1365,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "Nothing had happened the night of the incident"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/SilverBlaze/two_young_men> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/two_young_men> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notHear> .
-<http://kgc.knowledge-graph.jp/data/SilverBlaze/122>
-    rdf:type    kgc:Situation ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/SilverBlaze/noise> .
-<http://kgc.knowledge-graph.jp/data/SilverBlaze/123>
-    rdf:type    kgc:Situation ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notHear> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/SilverBlaze/noise> ;
     kgc:time  "1896-04-02T00:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SilverBlaze/1896-04-02T00:00> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/SilverBlaze/124> .
@@ -1710,12 +1706,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "フィッロイ・シムソンは殺人現場のネクタイを説明できなかった"@ja ;
     kgc:source  "Fitzroy Simpson could not explain the tie in the murder scene"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Fitzroy_Simpson> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/cannotExplain> .
-<http://kgc.knowledge-graph.jp/data/SilverBlaze/162>
-    rdf:type    kgc:Situation ;
-    kgc:whom   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Police> .
-<http://kgc.knowledge-graph.jp/data/SilverBlaze/163>
-    rdf:type    kgc:Situation ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/cannotExplain> ;
+    kgc:whom   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Police> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Tie_of_the_murder_scene> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/SilverBlaze/164> .
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/164>

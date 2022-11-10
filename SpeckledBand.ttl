@@ -1003,9 +1003,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/087>
     rdf:type    kgc:Situation ;
     kgc:source  "事件当夜，ジュリアは寝間着を着ていた。"@ja ;
-    kgc:source  "Julia was wearing a sleepwear on the day Julia died."@en .
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/087>
-    rdf:type    kgc:Situation ;
+    kgc:source  "Julia was wearing a sleepwear on the day Julia died."@en ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/wear> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/the_day_Julia_died> ;

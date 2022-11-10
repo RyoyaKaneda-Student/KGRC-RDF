@@ -538,12 +538,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "レディー・ブラックンストールの傷は上肢にある２つの赤い点だった"@ja ;
     kgc:source  "Lady Brackenstall's scratches are two red dots on upper limbs"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/scratch_of_Lady_Brackenstall> ;
-    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/Two_red_dots> .
-<http://kgc.knowledge-graph.jp/data/AbbeyGrange/>
-    rdf:type    kgc:Situation ;
-    kgc:where   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Upper_limbs> .
-<http://kgc.knowledge-graph.jp/data/AbbeyGrange/033>
-    rdf:type    kgc:Situation ;
+    kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/Two_red_dots> ;
+    kgc:where   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Upper_limbs> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/034> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/034>
     rdf:type    kgc:Statement ;
@@ -828,8 +824,6 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Oak_chair> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/exist> ;
     kgc:near   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/dining_table> .
-<http://kgc.knowledge-graph.jp/data/AbbeyGrange/061>
-    rdf:type    kgc:Situation ;
     kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/060> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/062>
     rdf:type    kgc:Statement ;
@@ -1532,7 +1526,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "The maids can't hear the bell in the kitchen"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Maid> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notHear> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/bell_of_kitchen> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/bell_of_kitchen> ;
+    kgc:because   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/144> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/141>
     rdf:type    kgc:Thought ;
     kgc:source  "犯人は召使の一人と結託している"@ja ;
@@ -1583,11 +1578,6 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Criminal> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/see> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/dining_room> .
-<http://kgc.knowledge-graph.jp/data/AbbeyGrange/140>
-    rdf:type    kgc:Situation ;
-    kgc:because   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/144> .
-<http://kgc.knowledge-graph.jp/data/AbbeyGrange/146>
-    rdf:type    kgc:Situation ;
     kgc:because   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/145> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/147>
     rdf:type    kgc:Statement ;
@@ -2038,11 +2028,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "Abbey Grange residents were badly surprised"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Residents_of_Abbey_Grange> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/beSurprised> .
-<http://kgc.knowledge-graph.jp/data/AbbeyGrange/195>
-    rdf:type    kgc:Situation ;
     kgc:how   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/very_much> .
-<http://kgc.knowledge-graph.jp/data/AbbeyGrange/197>
-    rdf:type    kgc:Situation ;
     kgc:because   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/196> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/198>
     rdf:type    kgc:Situation ;
@@ -2051,13 +2037,9 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/examine> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/dining_room> .
-<http://kgc.knowledge-graph.jp/data/AbbeyGrange/196>
-    rdf:type    kgc:Situation ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/2_hours> ;
     kgc:time  "1897-02-01T16:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/1897-02-01T16> .
-<http://kgc.knowledge-graph.jp/data/AbbeyGrange/198>
-    rdf:type    kgc:Situation ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/199> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/199>
     rdf:type    kgc:Situation ;
@@ -3099,12 +3081,10 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notWant> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/319a> .
-<http://kgc.knowledge-graph.jp/data/AbbeyGrange/320>
+<http://kgc.knowledge-graph.jp/data/AbbeyGrange/319a>
     rdf:type    kgc:Situation ;
     kgc:source  "ジャック・クロッカーはレディー・ブラックンストールを厄介な立場に巻き込む"@ja ;
-    kgc:source  "Jack Croker puts Lady Blackenstall in an awkward position"@en .
-<http://kgc.knowledge-graph.jp/data/AbbeyGrange/319a>
-    rdf:type    kgc:Statement ;
+    kgc:source  "Jack Croker puts Lady Blackenstall in an awkward position"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/involve> ;
@@ -3815,9 +3795,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Holmes> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/everyone> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notInterfere> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> .
-<http://kgc.knowledge-graph.jp/data/AbbeyGrange/399>
-    rdf:type    kgc:Situation ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Jack_Croker> ;
     kgc:if   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/399a> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/399a>
     rdf:type    kgc:Statement ;

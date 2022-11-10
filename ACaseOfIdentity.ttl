@@ -751,7 +751,6 @@ kgc:Thought rdf:type owl:Class ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Sutherland> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notWant> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Windibank> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Windybank> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/067a> .
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/067a>
     rdf:type    kgc:Statement ;
@@ -800,7 +799,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/072>
     rdf:type    kgc:Statement ;
     kgc:source  "サザランドの母はサザランドの父の死後に再婚した"@ja ;
-    kgc:source  "mother of Sutherland remarried after Sutherland&#39;s father&#39;s death"@en ;
+    kgc:source  "mother of Sutherland remarried after Sutherland's father's death"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Sutherland> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/getMarriedAgain> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/mother_of_Sutherland> .
@@ -930,7 +929,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/087>
     rdf:type    kgc:Statement ;
     kgc:source  "サザランドの収入はネッドの遺産である"@ja ;
-    kgc:source  "Sutherland's income is Ned&#39;s heritage"@en ;
+    kgc:source  "Sutherland's income is Ned's heritage"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Sutherland> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/heritage_of_Ned> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/income_of_Sutherland> .
@@ -1182,7 +1181,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/115>
     rdf:type    kgc:Statement ;
     kgc:source  "サザランドの父はガス工組合の舞踏会の招待状をサザランドに送っていた"@ja ;
-    kgc:source  "Sutherland's father had sent an invitation to the Gas Association&#39;s ball to Sutherland"@en ;
+    kgc:source  "Sutherland's father had sent an invitation to the Gas Association's ball to Sutherland"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Sutherland> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/send> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/father_of_Sutherland> ;
@@ -1194,7 +1193,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/116>
     rdf:type    kgc:Statement ;
     kgc:source  "サザランドとサザランドの母はサザランドの父の死後も舞踏会に行った"@ja ;
-    kgc:source  "Sutherland's and Sutherland&#39;s mother went to the ball after Sutherland&#39;s father&#39;s death"@en ;
+    kgc:source  "Sutherland's and Sutherland's mother went to the ball after Sutherland's father's death"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Sutherland> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/go> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Sutherland> ;
@@ -1261,9 +1260,6 @@ kgc:Thought rdf:type owl:Class ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/go> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Sutherland> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Dance_party> .
-<http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/122x>
-    rdf:type    kgc:Situation ;
-    kgc:then   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/123> .
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/123>
     rdf:type    kgc:Statement ;
     kgc:source  "ウィンディバンクはサザランドを止められない"@ja ;
@@ -1293,7 +1289,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/126>
     rdf:type    kgc:Statement ;
     kgc:source  "サザランドの父の友人は舞踏会に参加している"@ja ;
-    kgc:source  "Sutherland's father&#39;s friend participates in a ball"@en ;
+    kgc:source  "Sutherland's father's friend participates in a ball"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Sutherland> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/attend> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/friend_of_father_of_Sutherland> ;
@@ -1594,16 +1590,10 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Statement ;
     kgc:source  "ホズマはウィンディバンクがいる間にサザランドと会わない"@ja ;
     kgc:source  "Hosmer does not meet Sutherland while Windibank is"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Hosmer_s_statement> .
-<http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/162>
-    rdf:type    kgc:Situation ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notMeet> .
-<http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/161>
-    rdf:type    kgc:Situation ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Hosmer_s_statement> ;
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notMeet> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Hosmer> ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Sutherland> .
-<http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/162>
-    rdf:type    kgc:Situation ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/existence_of_Windibank> .
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/163>
     rdf:type    kgc:Situation ;
@@ -2209,7 +2199,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/228>
     rdf:type    kgc:Statement ;
     kgc:source  "ホズマはサザランドとサザランドの母をハンソム馬車に乗せた"@ja ;
-    kgc:source  "Hosmer put mother of Sutherland and Sutherland&#39;s mother on a Hansom carriage"@en ;
+    kgc:source  "Hosmer put mother of Sutherland and Sutherland's mother on a Hansom carriage"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Sutherland> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/putOn> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Hosmer> ;
@@ -2436,7 +2426,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/255>
     rdf:type    kgc:Statement ;
     kgc:source  "サザランドはサザランドの母とウィンディバンクにホズマ失踪を伝えた"@ja ;
-    kgc:source  "Sutherland reported Hosmer's disappearance to Sutherland&#39;s mother and Windibank"@en ;
+    kgc:source  "Sutherland reported Hosmer's disappearance to Sutherland's mother and Windibank"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Sutherland> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/say> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Sutherland> ;
@@ -2447,7 +2437,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/256>
     rdf:type    kgc:Statement ;
     kgc:source  "サザランドの母はホズマ失踪に怒った"@ja ;
-    kgc:source  "mother of Sutherland got mad at Hosmer&#39;s disappearance"@en ;
+    kgc:source  "mother of Sutherland got mad at Hosmer's disappearance"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Sutherland> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/angry> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/mother_of_Sutherland> ;
@@ -3917,12 +3907,8 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/430>
     rdf:type    kgc:Situation ;
     kgc:source  "ウィンディバンクは驚いて手袋を落とした"@ja ;
-    kgc:source  "Windibank dropped her gloves in surprise"@en .
-<http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/431>
-    rdf:type    kgc:Situation ;
+    kgc:source  "Windibank dropped her gloves in surprise"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/drop> .
-<http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/430>
-    rdf:type    kgc:Situation ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Windibank> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/gloves> ;
     kgc:how   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Surprised> ;
@@ -4596,7 +4582,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/514>
     rdf:type    kgc:Statement ;
     kgc:source  "サザランドの思いはサザランドの母の賞賛で増す"@ja ;
-    kgc:source  "Sutherland's thoughts grow with Sutherland&#39;s mother&#39;s praise"@en ;
+    kgc:source  "Sutherland's thoughts grow with Sutherland's mother's praise"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/increase> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/thought_of_Sutherland> ;
@@ -8452,11 +8438,11 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:PhysicalObject;
     rdf:type    kgc:Person;
     rdfs:label     "辻馬車"@ja.
-<http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/mother_of_Sutherland&#39_s_remark>
-    rdfs:label     "mother of Sutherland&#39;s remark"@en;
+<http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/mother_of_Sutherland_s_remark>
+    rdfs:label     "mother of Sutherland's remark"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/mother>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Sutherland&#39;s_remark>.
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Sutherland_s_remark>.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Trace>
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "跡"@ja;
@@ -8593,8 +8579,8 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/string>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/bell>.
-<http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Sutherland&#39;s_remark>
-    rdfs:label     "Sutherland&#39;s remark"@en;
+<http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Sutherland_s_remark>
+    rdfs:label     "Sutherland's remark"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/knee_of_Man>
     rdf:type    kgc:PhysicalObject;
