@@ -173,6 +173,9 @@ kgc:ORobj rdf:type owl:Class ;
            rdfs:subClassOf kgc:Object .
 ###  http://kgc.knowledge-graph.jp/ontology/kgcc.owl#Object
 kgc:Object rdf:type owl:Class .
+###  http://kgc.knowledge-graph.jp/ontology/kgcc.owl#PhysicalObject
+kgc:PhysicalObject rdf:type owl:Class ;
+            rdfs:subClassOf kgc:Object .
 ###  http://kgc.knowledge-graph.jp/ontology/kgcc.owl#Person
 kgc:Person rdf:type owl:Class ;
             rdfs:subClassOf kgc:Animal .
@@ -2285,7 +2288,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/CrookedMan/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/suspect> ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/CrookedMan/Nancy> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/criminal_of_incident> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/CrookedMan/criminal_of_incident> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/CrookedMan/police> .
 <http://kgc.knowledge-graph.jp/data/CrookedMan/253>
     rdf:type    kgc:Situation ;

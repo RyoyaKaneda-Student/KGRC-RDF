@@ -173,6 +173,9 @@ kgc:ORobj rdf:type owl:Class ;
            rdfs:subClassOf kgc:Object .
 ###  http://kgc.knowledge-graph.jp/ontology/kgcc.owl#Object
 kgc:Object rdf:type owl:Class .
+###  http://kgc.knowledge-graph.jp/ontology/kgcc.owl#PhysicalObject
+kgc:PhysicalObject rdf:type owl:Class ;
+            rdfs:subClassOf kgc:Object .
 ###  http://kgc.knowledge-graph.jp/ontology/kgcc.owl#Person
 kgc:Person rdf:type owl:Class ;
             rdfs:subClassOf kgc:Animal .
@@ -1593,7 +1596,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Hosmer_s_statement> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notMeet> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Hosmer> ;
-    kgc:whom   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Sutherland> .
+    kgc:whom   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Sutherland> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/existence_of_Windibank> .
 <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/163>
     rdf:type    kgc:Situation ;
@@ -3908,7 +3911,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "ウィンディバンクは驚いて手袋を落とした"@ja ;
     kgc:source  "Windibank dropped her gloves in surprise"@en ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/drop> .
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/drop> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Windibank> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/gloves> ;
     kgc:how   <http://kgc.knowledge-graph.jp/data/ACaseOfIdentity/Surprised> ;

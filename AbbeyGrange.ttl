@@ -173,6 +173,9 @@ kgc:ORobj rdf:type owl:Class ;
            rdfs:subClassOf kgc:Object .
 ###  http://kgc.knowledge-graph.jp/ontology/kgcc.owl#Object
 kgc:Object rdf:type owl:Class .
+###  http://kgc.knowledge-graph.jp/ontology/kgcc.owl#PhysicalObject
+kgc:PhysicalObject rdf:type owl:Class ;
+            rdfs:subClassOf kgc:Object .
 ###  http://kgc.knowledge-graph.jp/ontology/kgcc.owl#Person
 kgc:Person rdf:type owl:Class ;
             rdfs:subClassOf kgc:Animal .
@@ -823,7 +826,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Lady_Brackenstall> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Oak_chair> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/exist> ;
-    kgc:near   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/dining_table> .
+    kgc:near   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/dining_table> ;
     kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/060> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/062>
     rdf:type    kgc:Statement ;
@@ -841,7 +844,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "Lady Brackenstall could not move"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Lady_Brackenstall> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Lady_Brackenstall> ;
-    kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/063a> .
+    kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/063a> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/cannotMove> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/063a>
     rdf:type    kgc:Statement ;
@@ -1577,7 +1580,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Thought_of_Stanley_Hopkins> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Criminal> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/see> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/dining_room> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/dining_room> ;
     kgc:because   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/145> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/147>
     rdf:type    kgc:Statement ;
@@ -2027,8 +2030,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "アビ屋敷の住人はとても驚いた"@ja ;
     kgc:source  "Abbey Grange residents were badly surprised"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Residents_of_Abbey_Grange> ;
-    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/beSurprised> .
-    kgc:how   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/very_much> .
+    kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/beSurprised> ;
+    kgc:how   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/very_much> ;
     kgc:because   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/196> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/198>
     rdf:type    kgc:Situation ;
@@ -2036,10 +2039,10 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "Holmes was committed to the occupation and investigation of the dining room for two hours"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/examine> ;
-    kgc:where   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/dining_room> .
+    kgc:where   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/dining_room> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/2_hours> ;
     kgc:time  "1897-02-01T16:00:00"^^xsd:dateTime ;
-    kgc:when   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/1897-02-01T16> .
+    kgc:when   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/1897-02-01T16> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/199> .
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/199>
     rdf:type    kgc:Situation ;
