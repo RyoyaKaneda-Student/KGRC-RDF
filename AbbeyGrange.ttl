@@ -1423,7 +1423,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "サー・ユースタス・ブラックンストールは一度や二度警察の世話になるところだった"@ja ;
     kgc:source  "Sir Eustace Brackenstall was about to be taken care of by the police at one time or another"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Stanley_Hopkins> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Police> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/police> ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Sir_Eustace_Brackenstall> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/arrest> ;
     kgc:how   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/several_times> ;
@@ -2932,7 +2932,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ルイシャムの夜盗団が今朝ニューヨークで逮捕された"@ja ;
     kgc:source  "The burglary team of Lewisham were arrested in New York this morning"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Stanley_Hopkins> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Police> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/police> ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/Burglary_team_of_Lewisham> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/arrest> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/AbbeyGrange/this_morning> ;
@@ -4098,10 +4098,10 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/AbbeyGrange/end>
     rdfs:label     "end"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/AbbeyGrange/Police>
+<http://kgc.knowledge-graph.jp/data/AbbeyGrange/police>
     rdf:type    kgc:Person;
     rdfs:label     "警察"@ja;
-    rdfs:label     "Police"@en.
+    rdfs:label     "police"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/cannotSay>
     rdf:type    kgc:Action;
     rdf:type    kgc:CanNotAction;

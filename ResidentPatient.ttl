@@ -3036,7 +3036,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "強盗団全員が捕まえられた"@ja ;
     kgc:source  "Robbers everyone was caught"@en ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Police> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/police> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/ResidentPatient/Worthington_bank_Robbers> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/catch> .
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/312>
@@ -5066,10 +5066,10 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Place;
     rdfs:label     "東インドの植民地"@ja;
     rdfs:label     "East Indies colonial"@en.
-<http://kgc.knowledge-graph.jp/data/ResidentPatient/Police>
+<http://kgc.knowledge-graph.jp/data/ResidentPatient/police>
     rdf:type    kgc:Person;
     rdfs:label     "警察"@ja;
-    rdfs:label     "Police"@en.
+    rdfs:label     "police"@en.
 <http://kgc.knowledge-graph.jp/data/ResidentPatient/England>
     rdf:type    kgc:Place;
     rdfs:label     "イングランド"@ja;

@@ -1699,7 +1699,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "フィッロイ・シムソンはネクタイを見せられた"@ja ;
     kgc:source  "Fitzroy Simpson was shown a tie"@en ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Police> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/police> ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Fitzroy_Simpson> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/show> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SilverBlaze/tie> ;
@@ -1710,7 +1710,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "Fitzroy Simpson could not explain the tie in the murder scene"@en ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Fitzroy_Simpson> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/cannotExplain> ;
-    kgc:whom   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Police> ;
+    kgc:whom   <http://kgc.knowledge-graph.jp/data/SilverBlaze/police> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Tie_of_the_murder_scene> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/SilverBlaze/164> .
 <http://kgc.knowledge-graph.jp/data/SilverBlaze/164>
@@ -1788,7 +1788,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Situation ;
     kgc:source  "警察の推理は以下である"@ja ;
     kgc:source  "Police of reasoning is the following"@en ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Reasoning_Detective_of_Police> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Reasoning_Detective_of_police> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SilverBlaze/173> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SilverBlaze/174> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/SilverBlaze/175> ;
@@ -1804,7 +1804,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Thought ;
     kgc:source  "事件の夜、フィッロイ・シムソンはネッド・ハンターを眠らせた"@ja ;
     kgc:source  "On the night of the incident, Fitzroy Simpson put Ned Hunter to sleep"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Police> ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/SilverBlaze/police> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Fitzroy_Simpson> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/let> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SilverBlaze/173a> ;
@@ -1817,7 +1817,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Thought ;
     kgc:source  "フィッロイ・シムソンは、厩舎の合鍵を手に入れた"@ja ;
     kgc:source  "Fitzroy Simpson got a duplicate key of the stables"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Police> ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/SilverBlaze/police> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Fitzroy_Simpson> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/get> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Duplicate_key_of_the_stables> .
@@ -1825,7 +1825,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Thought ;
     kgc:source  "フィッロイ・シムソンは白銀号を荒地の方に連れ出した"@ja ;
     kgc:source  "Fitzroy Simpson took his a silvery white issue towards the wasteland"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Police> ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/SilverBlaze/police> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Fitzroy_Simpson> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/bring> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silver_Blaze> ;
@@ -1834,7 +1834,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Thought ;
     kgc:source  "フィッロイ・シムソンは、厩舎の戸を開けっ放しにした"@ja ;
     kgc:source  "Fitzroy Simpson left the door of the stables open"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Police> ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/SilverBlaze/police> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Fitzroy_Simpson> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/open> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Door_of_the_stables> ;
@@ -1843,7 +1843,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Thought ;
     kgc:source  "フィッロイ・シムソンとジョン・ストレーカーは出会った"@ja ;
     kgc:source  "Fitzroy Simpson and John Straker met"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Police> ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/SilverBlaze/police> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Fitzroy_Simpson> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/John_Straker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/meet> ;
@@ -1852,7 +1852,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Thought ;
     kgc:source  "フィッロイ・シムソンとジョン・ストレーカーは争った"@ja ;
     kgc:source  "Fitzroy Simpson and John Straker fought"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Police> ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/SilverBlaze/police> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Fitzroy_Simpson> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/John_Straker> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/fight> ;
@@ -1861,7 +1861,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Thought ;
     kgc:source  "フィッロイ・シムソンはジョン・ストレーカーの頭を太いステッキで叩き潰した"@ja ;
     kgc:source  "Fitzroy Simpson beated the head of John Straker with a thick stick"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Police> ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/SilverBlaze/police> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Fitzroy_Simpson> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/mash> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Head_of_John_Straker> ;
@@ -1871,7 +1871,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Thought ;
     kgc:source  "戦闘中、フィッロイ・シムソンは傷を負わなかった"@ja ;
     kgc:source  "During the combat, Fitzroy Simpson was not wounded"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Police> ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/SilverBlaze/police> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Fitzroy_Simpson> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notInjured> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SilverBlaze/In_combat> .
@@ -1879,7 +1879,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Thought ;
     kgc:source  "フィッロイ・シムソンは白銀号を隠した"@ja ;
     kgc:source  "Fitzroy Simpson hid Silver Blaze"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Police> ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/SilverBlaze/police> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Fitzroy_Simpson> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/hide> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silver_Blaze> .
@@ -1887,7 +1887,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Thought ;
     kgc:source  "戦闘中、白銀号は脱走した"@ja ;
     kgc:source  "During the combat, Silverr Blaze issue escaped"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Police> ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/SilverBlaze/police> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silver_Blaze> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/escape> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SilverBlaze/In_combat> .
@@ -1895,7 +1895,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Thought ;
     kgc:source  "白銀号は荒野をうろついている"@ja ;
     kgc:source  "Silver issue is wandering around in the wilderness"@en ;
-    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Police> ;
+    kgc:infoSource   <http://kgc.knowledge-graph.jp/data/SilverBlaze/police> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SilverBlaze/Silver_Blaze> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/wander> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/SilverBlaze/wilderness> .
@@ -4032,12 +4032,12 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/The_window>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Stables>.
-<http://kgc.knowledge-graph.jp/data/SilverBlaze/Reasoning_Detective_of_Police>
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/Reasoning_Detective_of_police>
     rdfs:label     "警察の推理"@ja;
-    rdfs:label     "Reasoning Detective of Police"@en;
+    rdfs:label     "Reasoning Detective of police"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Reasoning_Detective>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/Police>.
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SilverBlaze/police>.
 <http://kgc.knowledge-graph.jp/data/predicate/close>
     rdf:type    kgc:Action;
     rdfs:label     "閉める"@ja;
@@ -6209,10 +6209,10 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/predicate/Enter>
     rdfs:label     "Enter"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/SilverBlaze/Police>
+<http://kgc.knowledge-graph.jp/data/SilverBlaze/police>
     rdf:type    kgc:Person;
     rdfs:label     "警察"@ja;
-    rdfs:label     "Police"@en.
+    rdfs:label     "police"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/feel>
     rdf:type    kgc:Action;
     rdfs:label     "感じる"@ja;

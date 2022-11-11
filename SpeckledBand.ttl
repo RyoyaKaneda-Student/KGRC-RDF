@@ -201,7 +201,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/001>
     rdf:type    kgc:Situation ;
     kgc:source  "ヘレンがホームズの家にやってくる"@ja ;
-    kgc:source  "Helen arrives at Holmes' house"@en ;
+    kgc:source  "Helen arrives at Holmes’ house"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/arrive> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/house_of_Holmes> ;
@@ -289,7 +289,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/010>
     rdf:type    kgc:Situation ;
     kgc:source  "ロイロットはインドでヘレンの母と結婚した"@ja ;
-    kgc:source  "Roylott married Helen's mother in India"@en ;
+    kgc:source  "Roylott married Helen’s mother in India"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/marry> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott> ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/SpeckledBand/mother_of_Helen> ;
@@ -309,7 +309,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/012>
     rdf:type    kgc:Situation ;
     kgc:source  "ヘレンの母は金持ちだった"@ja ;
-    kgc:source  "Helen's mother was rich"@en ;
+    kgc:source  "Helen’s mother was rich"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/have> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/mother_of_Helen> ;
     kgc:time  "1873-04-01T00:00:00"^^xsd:dateTime ;
@@ -328,7 +328,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/014>
     rdf:type    kgc:Situation ;
     kgc:source  "ヘレンの母はクルーで８年前に亡くなった"@ja ;
-    kgc:source  "Helen's mother died 8 years ago at the Crewe"@en ;
+    kgc:source  "Helen’s mother died 8 years ago at the Crewe"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/die> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/mother_of_Helen> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Crewe> ;
@@ -339,7 +339,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/015>
     rdf:type    kgc:Situation ;
     kgc:source  "ヘレンの母はお金をロイロットに譲った"@ja ;
-    kgc:source  "Helen's mother yielded money to Roylott"@en ;
+    kgc:source  "Helen’s mother yielded money to Roylott"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/give> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/mother_of_sister> ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott> ;
@@ -489,7 +489,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/033>
     rdf:type    kgc:Situation ;
     kgc:source  "母の妹がハロウに住んでいる"@ja ;
-    kgc:source  "Mother's sister lives in Harrow"@en ;
+    kgc:source  "Mother’s sister lives in Harrow"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/live> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/sister_of_mother_of_Helen> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Harrow> ;
@@ -582,17 +582,17 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "居間の隣はロイロットの寝室である"@ja ;
     kgc:source  "Next to the living room is Roylott’s bedroom"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/exist> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott’s_bedroom> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott_s_bedroom> ;
     kgc:next_to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/living_room> ;
     kgc:time  "1881-04-01T00:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1881-04-01> .
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/044>
     rdf:type    kgc:Situation ;
     kgc:source  "ロイロットの寝室の隣はジュリアの寝室である"@ja ;
-    kgc:source  "Next to Roylott's bedroom is Julia’s bedroom"@en ;
+    kgc:source  "Next to Roylott’s bedroom is Julia’s bedroom"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/exist> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
-    kgc:next_to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott’s_bedroom> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
+    kgc:next_to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott_s_bedroom> ;
     kgc:time  "1881-04-01T00:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1881-04-01> .
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/045>
@@ -600,8 +600,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ジュリアの寝室の隣はヘレンの寝室である"@ja ;
     kgc:source  "Next to Julia’s bedroom is Helen’s bedroom"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/exist> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen’s_bedroom> ;
-    kgc:next_to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen_s_bedroom> ;
+    kgc:next_to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
     kgc:time  "1881-04-01T00:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1881-04-01> .
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/046>
@@ -610,8 +610,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "There is no door between bedrooms"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notExist> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/door> ;
-    kgc:from   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott’s_bedroom> ;
-    kgc:to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
+    kgc:from   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott_s_bedroom> ;
+    kgc:to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
     kgc:time  "1881-04-01T00:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1881-04-01> .
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/047>
@@ -620,8 +620,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "There is no door between bedrooms"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notExist> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/door> ;
-    kgc:from   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
-    kgc:to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen’s_bedroom> ;
+    kgc:from   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
+    kgc:to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen_s_bedroom> ;
     kgc:time  "1881-04-01T00:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1881-04-01> .
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/048>
@@ -630,7 +630,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "All of the bedrooms are connected to the hallway"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/exist> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/door> ;
-    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott’s_bedroom> ;
+    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott_s_bedroom> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/corridor> ;
     kgc:time  "1881-04-01T00:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1881-04-01> .
@@ -640,7 +640,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "All of the bedrooms are connected to the hallway"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/exist> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/door> ;
-    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
+    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/corridor> ;
     kgc:time  "1881-04-01T00:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1881-04-01> .
@@ -650,7 +650,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "All of the bedrooms are connected to the hallway"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/exist> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/door> ;
-    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen’s_bedroom> ;
+    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen_s_bedroom> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/corridor> ;
     kgc:time  "1881-04-01T00:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1881-04-01> .
@@ -670,7 +670,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "On the day Julia died, Roylott went to the bedroom"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/go> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott> ;
-    kgc:to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott’s_bedroom> ;
+    kgc:to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott_s_bedroom> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/the_day_Julia_died> ;
     kgc:time  "1881-04-01T22:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1881-04-01T22> .
@@ -681,7 +681,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/awake> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott> ;
-    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott’s_bedroom> ;
+    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott_s_bedroom> ;
     kgc:time  "1881-04-01T22:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1881-04-01T22> ;
     kgc:why   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_suffered_from_the_smell_of_Indian_cigarettes> ;
@@ -693,7 +693,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "Julia came Helen’s bedroom"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/come> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia> ;
-    kgc:to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen’s_bedroom> ;
+    kgc:to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen_s_bedroom> ;
     kgc:time  "1881-04-01T22:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1881-04-01T22> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/SpeckledBand/056> .
@@ -703,7 +703,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "Julia suffered from the smell of Indian cigarettes"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/smell> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia> ;
-    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
+    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
     kgc:time  "1881-04-01T22:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1881-04-01T22> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/smell_of_Indian_cigarettes> .
@@ -721,10 +721,10 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/057>
     rdf:type    kgc:Situation ;
     kgc:source  "ジュリアは１１時に寝室に戻る"@ja ;
-    kgc:source  "Julia returns to the bedroom at 11 o'clock"@en ;
+    kgc:source  "Julia returns to the bedroom at 11 o’clock"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/go> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia> ;
-    kgc:to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
+    kgc:to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/the_day_Julia_died> ;
     kgc:time  "1881-04-01T23:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1881-04-01T23> .
@@ -777,7 +777,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/hear> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia> ;
-    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott’s_bedroom_OR_garden_of_Roylott_OR_Helen’s_bedroom> ;
+    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott_s_bedroom_OR_garden_of_Roylott_OR_Helen_s_bedroom> ;
     kgc:time  "1881-04-01T03:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1881-04-01T03> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/whistle> .
@@ -800,7 +800,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia> ;
     kgc:time  "1881-04-01T23:30:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1881-04-01T23:30> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
     kgc:why   <http://kgc.knowledge-graph.jp/data/SpeckledBand/animal_of_India> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/SpeckledBand/065> .
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/065>
@@ -826,10 +826,10 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/067>
     rdf:type    kgc:Situation ;
     kgc:source  "事件当夜，ジュリアの声が聞こえた"@ja ;
-    kgc:source  "Julia's voice was heard on  the day Julia died"@en ;
+    kgc:source  "Julia’s voice was heard on  the day Julia died"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/hear> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen> ;
-    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen’s_bedroom> ;
+    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen_s_bedroom> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/the_day_Julia_died> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/voice_of_Julia> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/SpeckledBand/068> .
@@ -859,7 +859,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "Julia opened the key on the day Julia died"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/open> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/SpeckledBand/071> .
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/071>
     rdf:type    kgc:Situation ;
@@ -867,7 +867,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "Julia came out of the bedroom on the day Julia died"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/goOut> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia> ;
-    kgc:from   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
+    kgc:from   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/the_day_Julia_died> ;
     kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/SpeckledBand/072> .
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/072>
@@ -931,7 +931,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/point> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/the_day_Julia_died> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott’s_bedroom> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott_s_bedroom> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/SpeckledBand/079> .
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/079>
     rdf:type    kgc:Situation ;
@@ -1044,14 +1044,14 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/091>
     rdf:type    kgc:Situation ;
     kgc:source  "ロイロット博士の日頃の行いが悪い。"@ja ;
-    kgc:source  "Roylott's daily work is bad."@en ;
+    kgc:source  "Roylott’s daily work is bad."@en ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/have> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/bad_act> .
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/092>
     rdf:type    kgc:Situation ;
     kgc:source  "ジュリアの死因については不明。"@ja ;
-    kgc:source  "Julia's cause of death is unknown."@en ;
+    kgc:source  "Julia’s cause of death is unknown."@en ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/notUnderstand> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/coroner> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/death_cause_of_Julia> .
@@ -1061,10 +1061,10 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "There was a lock from the inside Julia’s bedroom door"@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/lock> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/door_of_Julia’s_bedroom> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/door_of_Julia_s_bedroom> ;
     kgc:time  "1881-04-02T00:30:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1881-04-02T00:30> ;
-    kgc:how   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> .
+    kgc:how   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> .
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/094>
     rdf:type    kgc:Situation ;
     kgc:source  "ヘレンはジュリアの寝室のドアの内側から鍵がかかっていたことを証言した。"@ja ;
@@ -1080,7 +1080,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ジュリアの寝室の窓には旧式の鎧戸が付いている。"@ja ;
     kgc:source  "Julia’s bedroom window has an old-fashioned door"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/have> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/window_of_Julia’s_bedroom> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/window_of_Julia_s_bedroom> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/shutter> ;
     kgc:その他の修飾   <http://kgc.knowledge-graph.jp/data/SpeckledBand/old-fashioned> .
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/096>
@@ -1088,7 +1088,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ジュリアの寝室の窓は夜にはいつも太い鉄の棒をはめて閉ざしている。"@ja ;
     kgc:source  "Julia’s bedroom window is always closed with a thick iron stick at night."@en ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/close> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/window_of_Julia’s_bedroom> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/window_of_Julia_s_bedroom> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/night> ;
     kgc:time  "1881-04-02T00:30:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1881-04-02T00:30> ;
@@ -1099,18 +1099,18 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "The coroner examined the walls of Julia’s bedroom by hitting them"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/examine> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/coroner> ;
-    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
+    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
     kgc:time  "1881-04-02T09:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1881-04-02T09:00> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/four_walls_of_Julia’s_bedroom> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/four_walls_of_Julia_s_bedroom> ;
     kgc:how   <http://kgc.knowledge-graph.jp/data/SpeckledBand/by_hitting> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/SpeckledBand/098> .
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/098>
     rdf:type    kgc:Situation ;
     kgc:source  "ジュリアの寝室の四方の壁はしっかり堅い。"@ja ;
-    kgc:source  "The walls of Julia 's four sides are tight."@en ;
+    kgc:source  "The walls of Julia ’s four sides are tight."@en ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/tight> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/four_walls_of_Julia’s_bedroom> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/four_walls_of_Julia_s_bedroom> ;
     kgc:その他の修飾   <http://kgc.knowledge-graph.jp/data/SpeckledBand/tightly> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/SpeckledBand/099> .
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/099>
@@ -1119,8 +1119,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "The coroner examined floor of Julia’s bedroom specifically"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/examine> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/coroner> ;
-    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/floor_of_Julia’s_bedroom> ;
+    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/floor_of_Julia_s_bedroom> ;
     kgc:how   <http://kgc.knowledge-graph.jp/data/SpeckledBand/specifically> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/SpeckledBand/100> .
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/100>
@@ -1128,14 +1128,14 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ジュリアの寝室の床はしっかり堅い。"@ja ;
     kgc:source  "Julia’s bedroom floor is tight."@en ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/tight> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/floor_of_Julia’s_bedroom> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/floor_of_Julia_s_bedroom> ;
     kgc:その他の修飾   <http://kgc.knowledge-graph.jp/data/SpeckledBand/tightly> .
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/101>
     rdf:type    kgc:Situation ;
     kgc:source  "ジュリアの寝室の煙突は太い。"@ja ;
     kgc:source  "The chimney in Julia’s bedroom is fat."@en ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/fat> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/chimney_of_Julia’s_bedroom> .
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/chimney_of_Julia_s_bedroom> .
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/102>
     rdf:type    kgc:Situation ;
     kgc:source  "ジュリアの寝室の煙突の内部に釘が四本も横に通してある。"@ja ;
@@ -1149,7 +1149,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "Julia was alone in the bedroom on the day Julia died."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/exist> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia> ;
-    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
+    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/the_day_Julia_died> ;
     kgc:time  "1881-04-02T00:30:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1881-04-02T00:30> ;
@@ -1157,7 +1157,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/104>
     rdf:type    kgc:Situation ;
     kgc:source  "ジュリアの体には傷痕がない。"@ja ;
-    kgc:source  "Julia's body has no scar."@en ;
+    kgc:source  "Julia’s body has no scar."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notHave> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/body_of_Julia> ;
@@ -1167,7 +1167,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/105>
     rdf:type    kgc:Situation ;
     kgc:source  "ジュリアの体から毒は見つからなかった。"@ja ;
-    kgc:source  "There was no poison in Julia's body."@en ;
+    kgc:source  "There was no poison in Julia’s body."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/cannotFind> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/coroner> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/body_of_Julia> ;
@@ -1259,7 +1259,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ヘレンの寝室の壁に穴が空いた。"@ja ;
     kgc:source  "There was a hole in the wall of Helen’s bedroom."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/beBroken> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/wall_of_Helen’s_bedroom> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/wall_of_Helen_s_bedroom> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/SpeckledBand/116> .
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/116>
     rdf:type    kgc:Situation ;
@@ -1267,15 +1267,15 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "Therefore, Helen moved into Julia’s bedroom."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/go> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen> ;
-    kgc:from   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen’s_bedroom> ;
-    kgc:to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> .
+    kgc:from   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen_s_bedroom> ;
+    kgc:to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> .
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/117>
     rdf:type    kgc:Situation ;
     kgc:source  "ヘレンは昨夜恐ろしくてふるえた。"@ja ;
     kgc:source  "Helen looked horrible last night."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/scare> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen> ;
-    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
+    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/last_night> ;
     kgc:time  "1883-03-31T23:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-03-31T23> ;
@@ -1286,7 +1286,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "Last night at midnight Helen heard a low whistle."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/hear> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen> ;
-    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
+    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/last_night> ;
     kgc:time  "1883-03-31T23:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-03-31T23> ;
@@ -1298,7 +1298,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "Helen jumped up."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/wakeUp> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen> ;
-    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
+    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
     kgc:time  "1883-03-31T23:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-03-31T23> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/SpeckledBand/120> .
@@ -1308,7 +1308,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "Helen turned on the lamp."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/turnOn> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen> ;
-    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
+    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
     kgc:time  "1883-03-31T23:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-03-31T23> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/lamp> ;
@@ -1319,7 +1319,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "Nothing was found in Julia’s bedroom."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/cannotFind> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen> ;
-    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
+    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
     kgc:time  "1883-03-31T23:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-03-31T23> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/something> ;
@@ -1330,7 +1330,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "Helen has changed clothes."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/wear> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen> ;
-    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
+    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
     kgc:time  "1883-03-31T23:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-03-31T23> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/clothes> ;
@@ -1397,7 +1397,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/129>
     rdf:type    kgc:Situation ;
     kgc:source  "ヘレンの手首には5本指でつけた青痣が残されていた。"@ja ;
-    kgc:source  "Herring's wrist had left five blue fingers with a finger."@en ;
+    kgc:source  "Herring’s wrist had left five blue fingers with a finger."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/have> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/wrist_of_Helen> ;
     kgc:time  "1883-04-01T10:00:00"^^xsd:dateTime ;
@@ -1457,7 +1457,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/135>
     rdf:type    kgc:Situation ;
     kgc:source  "ヘレンはホームズの提案を承諾した。"@ja ;
-    kgc:source  "Helen accepted Holmes's proposal."@en ;
+    kgc:source  "Helen accepted Holmes’s proposal."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/accept> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen> ;
     kgc:time  "1883-04-01T10:00:00"^^xsd:dateTime ;
@@ -1467,7 +1467,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/136>
     rdf:type    kgc:Situation ;
     kgc:source  "ヘレンは退室した。"@ja ;
-    kgc:source  "Helen left the Holmes's house."@en ;
+    kgc:source  "Helen left the Holmes’s house."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/leave> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen> ;
     kgc:from   <http://kgc.knowledge-graph.jp/data/SpeckledBand/house_of_Holmes> ;
@@ -1508,7 +1508,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/140>
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズはロイロット博士の質問をはぐらかした。"@ja ;
-    kgc:source  "Holmes did not respond to Roylott's question."@en ;
+    kgc:source  "Holmes did not respond to Roylott’s question."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notRespond> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Holmes> ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott> ;
@@ -1519,7 +1519,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/141>
     rdf:type    kgc:Situation ;
     kgc:source  "ロイロット博士は部屋から出ていった。"@ja ;
-    kgc:source  "Roylott left Holmes's house."@en ;
+    kgc:source  "Roylott left Holmes’s house."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/leave> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott> ;
     kgc:from   <http://kgc.knowledge-graph.jp/data/SpeckledBand/house_of_Holmes> ;
@@ -1528,7 +1528,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/142>
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズはヘレンの母の遺言状を見てきた。"@ja ;
-    kgc:source  "Holmes has seen the will of Helen's mother."@en ;
+    kgc:source  "Holmes has seen the will of Helen’s mother."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/read> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Holmes> ;
     kgc:time  "1883-04-01T13:00:00"^^xsd:dateTime ;
@@ -1550,7 +1550,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "The current price of the invested capital involved was less than 1100 pounds in annual income at the time of Helen’s mothers death."@en ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/1100_GBP> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/The_current_price_of_the_invested_capital> ;
-    kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/the_time_of_Helen’s_mothers_death> ;
+    kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/the_time_of_Helen_s_mothers_death> ;
     kgc:time  "1875-04-01T10:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1875-04-01T10> ;
     kgc:how   <http://kgc.knowledge-graph.jp/data/SpeckledBand/every_year> .
@@ -1799,9 +1799,9 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/172>
     rdf:type    kgc:Situation ;
     kgc:source  "ヘレンの寝室は端にある。"@ja ;
-    kgc:source  "Helen 's bedroom is at the edge."@en ;
+    kgc:source  "Helen ’s bedroom is at the edge."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/exist> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen’s_bedroom> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen_s_bedroom> ;
     kgc:right   <http://kgc.knowledge-graph.jp/data/SpeckledBand/right_building> ;
     kgc:time  "1883-04-01T14:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-04-01T14> .
@@ -1810,7 +1810,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "真ん中の寝室はジュリアの寝室である。"@ja ;
     kgc:source  "Julia’s bedroom is in the middle"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/exist> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
     kgc:middle   <http://kgc.knowledge-graph.jp/data/SpeckledBand/right_building> ;
     kgc:time  "1883-04-01T14:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-04-01T14> .
@@ -1819,7 +1819,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "母屋に一番近い部屋はロイロット博士の寝室である"@ja ;
     kgc:source  "Roylott’s bedroom is closest to the main mansion"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/exist> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott’s_bedroom> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott_s_bedroom> ;
     kgc:close   <http://kgc.knowledge-graph.jp/data/SpeckledBand/central_building> ;
     kgc:time  "1883-04-01T14:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-04-01T14> .
@@ -1829,7 +1829,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "Helen is now sleeping in the middle bedroom."@en ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/asleep> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen> ;
-    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
+    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/these_days> ;
     kgc:time  "1883-04-01T14:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-04-01T14> .
@@ -1838,7 +1838,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ヘレンの寝室の壁は改修中である"@ja ;
     kgc:source  "Helen’s bedroom wall is under renovation"@en ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/underRenovation> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/wall_of_Helen’s_bedroom> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/wall_of_Helen_s_bedroom> ;
     kgc:time  "1883-04-01T14:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-04-01T14> .
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/177>
@@ -1872,7 +1872,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ヘレンの寝室は廊下に面している。"@ja ;
     kgc:source  "Helen’s bedroom faces the corridor"@en ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/face> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen’s_bedroom> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen_s_bedroom> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/corridor> ;
     kgc:time  "1883-04-01T14:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-04-01T14> .
@@ -1881,16 +1881,16 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ジュリアの寝室は廊下に面している。"@ja ;
     kgc:source  "Julia’s bedroom faces the corridor"@en ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/face> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/corridor> ;
     kgc:time  "1883-04-01T14:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-04-01T14> .
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/182>
     rdf:type    kgc:Situation ;
     kgc:source  "ロイロット博士の寝室は廊下に面している。"@ja ;
-    kgc:source  "Roylott's bedroom faces the corridor."@en ;
+    kgc:source  "Roylott’s bedroom faces the corridor."@en ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/face> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott’s_bedroom> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott_s_bedroom> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/corridor> ;
     kgc:time  "1883-04-01T14:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-04-01T14> .
@@ -1900,8 +1900,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "Helen’s bedroom has a window facing the hallway"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/exist> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/window> ;
-    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen’s_bedroom> ;
-    kgc:from   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen’s_bedroom> ;
+    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen_s_bedroom> ;
+    kgc:from   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen_s_bedroom> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/corridor> ;
     kgc:time  "1883-04-01T14:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-04-01T14> .
@@ -1910,44 +1910,44 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ヘレンの寝室の窓は狭い。ジュリアの寝室の窓は狭い。ロイロット博士の寝室の窓は狭い。"@ja ;
     kgc:source  "Helen’s bedroom window is narrow. Julia’s bedroom window is narrow. Roylott’s bedroom has a narrow window"@en ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/narrow> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/window_of_Helen’s_bedroom> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/window_of_Julia’s_bedroom> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/window_of_Roylott’s_bedroom> .
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/window_of_Helen_s_bedroom> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/window_of_Julia_s_bedroom> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/window_of_Roylott_s_bedroom> .
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/184>
     rdf:type    kgc:Situation ;
     kgc:source  "ジュリアの寝室には廊下に向いた窓がある。"@ja ;
     kgc:source  "Julia’s bedroom has a window facing the corridor"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/exist> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/window> ;
-    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
-    kgc:from   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
+    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
+    kgc:from   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/corridor> ;
     kgc:time  "1883-04-01T14:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-04-01T14> .
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/185>
     rdf:type    kgc:Situation ;
     kgc:source  "ロイロット博士の寝室には廊下に向いた窓がある。"@ja ;
-    kgc:source  "Roylott 's bedroom has a window facing the corridor."@en ;
+    kgc:source  "Roylott ’s bedroom has a window facing the corridor."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/exist> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/window> ;
-    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott’s_bedroom> ;
-    kgc:from   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott’s_bedroom> ;
+    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott_s_bedroom> ;
+    kgc:from   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott_s_bedroom> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/corridor> ;
     kgc:time  "1883-04-01T14:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-04-01T14> .
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/185a>
     rdf:type    kgc:Situation ;
     kgc:source  "ヘレンの寝室の窓は人の通り抜けはできない。ジュリアの寝室の窓は人の通り抜けはできない。ロイロット博士の寝室の窓は人の通り抜けはできない。"@ja ;
-    kgc:source  "Helen’s bedroom window cannot pass through people. Julia’s bedroom window cannot pass through people. Roylott's bedroom window cannot pass through people"@en ;
+    kgc:source  "Helen’s bedroom window cannot pass through people. Julia’s bedroom window cannot pass through people. Roylott’s bedroom window cannot pass through people"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/cannotPassThrough> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/man> ;
-    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen’s_bedroom> ;
-    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
-    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott’s_bedroom> ;
+    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen_s_bedroom> ;
+    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
+    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott_s_bedroom> ;
     kgc:from   <http://kgc.knowledge-graph.jp/data/SpeckledBand/corridor> ;
-    kgc:to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen’s_bedroom> ;
-    kgc:to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
-    kgc:to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott’s_bedroom> ;
+    kgc:to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen_s_bedroom> ;
+    kgc:to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
+    kgc:to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott_s_bedroom> ;
     kgc:time  "1883-04-01T14:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-04-01T14> .
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/186>
@@ -1956,7 +1956,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "Helen entered Julia’s bedroom"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/enter> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen> ;
-    kgc:to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
+    kgc:to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
     kgc:time  "1883-04-01T14:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-04-01T14> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/SpeckledBand/187> .
@@ -1978,7 +1978,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen> ;
     kgc:time  "1883-04-01T14:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-04-01T14> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/SpeckledBand/189> .
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/189>
     rdf:type    kgc:Situation ;
@@ -1988,7 +1988,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Holmes> ;
     kgc:time  "1883-04-01T14:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-04-01T14> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/window_of_Julia’s_bedroom> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/window_of_Julia_s_bedroom> ;
     kgc:how   <http://kgc.knowledge-graph.jp/data/SpeckledBand/carefully> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/SpeckledBand/190> .
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/190>
@@ -2039,7 +2039,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "Holmes visited Julia’s bedroom"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/go> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Holmes> ;
-    kgc:to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
+    kgc:to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
     kgc:time  "1883-04-01T15:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-04-01T15> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/SpeckledBand/207> .
@@ -2049,13 +2049,13 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "Julia’s bedroom is a plain small bedroom."@en ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/simple> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/small> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> .
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> .
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/197>
     rdf:type    kgc:Situation ;
     kgc:source  "ジュリアの寝室は低い天井。"@ja ;
     kgc:source  "Julia’s bedroom is a low ceiling."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/have> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
     kgc:time  "1883-04-01T15:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-04-01T15> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/low_celling> .
@@ -2064,7 +2064,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ジュリアの寝室には暖炉がある。"@ja ;
     kgc:source  "Julia’s bedroom has a fireplace."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/have> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
     kgc:time  "1883-04-01T15:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-04-01T15> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/fireplace> .
@@ -2073,7 +2073,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ジュリアの寝室の隅には茶色の箪笥がある。"@ja ;
     kgc:source  "In the corner of Julia’s bedroom there is a brown chest."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/have> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/chest> ;
     kgc:time  "1883-04-01T15:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-04-01T15> .
@@ -2082,7 +2082,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ジュリアの寝室の隅には寝台がある。"@ja ;
     kgc:source  "There is a bed in the corner of Julia’s bedroom."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/have> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
     kgc:time  "1883-04-01T15:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-04-01T15> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/bed> .
@@ -2100,8 +2100,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ジュリアの寝室の窓の左側には化粧台がある。"@ja ;
     kgc:source  "There is a dressing table on the left side of Julia’s bedroom window."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/have> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
-    kgc:left   <http://kgc.knowledge-graph.jp/data/SpeckledBand/window_of_Julia’s_bedroom> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
+    kgc:left   <http://kgc.knowledge-graph.jp/data/SpeckledBand/window_of_Julia_s_bedroom> ;
     kgc:time  "1883-04-01T15:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-04-01T15> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/vanity> .
@@ -2110,16 +2110,16 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ジュリアの寝室には小さな籐椅子が２つある。"@ja ;
     kgc:source  "Julia’s bedroom has two small rattan chairs."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/have> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
     kgc:time  "1883-04-01T15:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-04-01T15> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/two_small_chairs> .
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/204>
     rdf:type    kgc:Situation ;
     kgc:source  "ジュリアの寝室の中央には高級なウィルトン絨毯が敷かれていた。"@ja ;
-    kgc:source  "In the center of Julia 's bedroom was a prestigious Wilton carpet laid."@en ;
+    kgc:source  "In the center of Julia ’s bedroom was a prestigious Wilton carpet laid."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/have> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
     kgc:time  "1883-04-01T15:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-04-01T15> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/premium_wilton_carpet> .
@@ -2128,13 +2128,13 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "ジュリアの寝室の床は虫の食った褐色の樫材。"@ja ;
     kgc:source  "The floor of Julia’s bedroom made from an brown oak material that insects bites."@en ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/brown_oak_material_that_insects_bites> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/floor_of_Julia’s_bedroom> .
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/floor_of_Julia_s_bedroom> .
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/206>
     rdf:type    kgc:Situation ;
     kgc:source  "ジュリアの寝室の壁は虫の食った褐色の樫材。"@ja ;
     kgc:source  "Thewall of Julia’s bedroom made from an brown oak material that insects bites."@en ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/brown_oak_material_that_insects_bites> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/walll_of_Julia’s_bedroom> .
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/walll_of_Julia_s_bedroom> .
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/207>
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズは椅子に座った。"@ja ;
@@ -2142,7 +2142,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/sit> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Holmes> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/chair> ;
-    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
+    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
     kgc:time  "1883-04-01T15:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-04-01T15> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/SpeckledBand/208> .
@@ -2154,13 +2154,13 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Holmes> ;
     kgc:time  "1883-04-01T15:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-04-01T15> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
     kgc:how   <http://kgc.knowledge-graph.jp/data/SpeckledBand/carefully> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/SpeckledBand/209> .
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/209>
     rdf:type    kgc:Situation ;
     kgc:source  "寝台のそばに呼び鈴の引き綱が垂れ下がっている。"@ja ;
-    kgc:source  "The drawer 's rope hangs down by the bed."@en ;
+    kgc:source  "The drawer ’s rope hangs down by the bed."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/exist> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/rope_of_bell> ;
     kgc:near   <http://kgc.knowledge-graph.jp/data/SpeckledBand/bed> ;
@@ -2202,7 +2202,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Holmes> ;
     kgc:time  "1883-04-01T15:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-04-01T15> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/floor_of_Julia’s_bedroom> ;
+    kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/floor_of_Julia_s_bedroom> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/SpeckledBand/214> .
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/214>
     rdf:type    kgc:Situation ;
@@ -2249,7 +2249,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "It is really strange!, Holmes said."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Holmes> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/strange> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
     kgc:time  "1883-04-01T15:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-04-01T15> ;
     kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/SpeckledBand/219> .
@@ -2268,7 +2268,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "There are several strange points in this bedroom."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/have> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
     kgc:time  "1883-04-01T15:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-04-01T15> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/strange_points> .
@@ -2278,8 +2278,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "There is a hole in the next bedroom."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/exist> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/VentilationHole> ;
-    kgc:from   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
-    kgc:to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott’s_bedroom> ;
+    kgc:from   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
+    kgc:to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott_s_bedroom> ;
     kgc:time  "1883-04-01T15:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-04-01T15> ;
     kgc:because   <http://kgc.knowledge-graph.jp/data/SpeckledBand/222> .
@@ -2289,7 +2289,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "Because, if it is a ventilator, it should let the air outside enter"@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/letEnter> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/VentilationHole> ;
-    kgc:from   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
+    kgc:from   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
     kgc:to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/garden_of_mansion_of_Roylott> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/OutsideAir> .
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/223>
@@ -2327,7 +2327,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "そのほかにも少し直したところがいくつもある"@ja ;
     kgc:source  "In addition there are several places fixed a little bit."@en ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/repaired> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
     kgc:time  "1881-04-01T10:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1881-04-01T10> .
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/227>
@@ -2336,7 +2336,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "This bedroom has very interesting features."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/exist> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
     kgc:time  "1883-04-01T15:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-04-01T15> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/interesting_features> .
@@ -2345,7 +2345,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "飾りだけの引き綱がある"@ja ;
     kgc:source  "There is a tow line with only decorations."@en ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/have> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
     kgc:time  "1883-04-01T15:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-04-01T15> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/rope_of_bell> .
@@ -2366,36 +2366,36 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/232>
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズは、ロイロット博士の寝室（もうひとつ内側の寝室）を調べた。"@ja ;
-    kgc:source  "Holmes investigate Roylott's bedroom."@en ;
+    kgc:source  "Holmes investigate Roylott’s bedroom."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/examine> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Holmes> ;
     kgc:time  "1883-04-01T16:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-04-01T16> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott’s_bedroom> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott_s_bedroom> .
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/233>
     rdf:type    kgc:Situation ;
     kgc:source  "ロイロット博士の寝室は、娘たちの寝室より広かった"@ja ;
-    kgc:source  "Roylott's bedroom was larger than the sister's bedroom."@en ;
+    kgc:source  "Roylott’s bedroom was larger than the sister’s bedroom."@en ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/wider> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott’s_bedroom> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott_s_bedroom> ;
     kgc:time  "1883-04-01T16:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-04-01T16> ;
     kgc:how   <http://kgc.knowledge-graph.jp/data/SpeckledBand/than_bedroom_of_sister> .
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/234>
     rdf:type    kgc:Situation ;
     kgc:source  "ロイロット博士の寝室は、家具は同様に質素なものだった。"@ja ;
-    kgc:source  "In Roylott's bedroom, the furniture was plain."@en ;
+    kgc:source  "In Roylott’s bedroom, the furniture was plain."@en ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/have> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott’s_bedroom> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott_s_bedroom> ;
     kgc:time  "1883-04-01T16:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-04-01T16> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/simple_furniture> .
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/235>
     rdf:type    kgc:Situation ;
     kgc:source  "ロイロット博士の寝室には、折りたたみのできる寝台があった"@ja ;
-    kgc:source  "Roylott's bedroom had a bed that could be folded."@en ;
+    kgc:source  "Roylott’s bedroom had a bed that could be folded."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/have> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott’s_bedroom> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott_s_bedroom> ;
     kgc:time  "1883-04-01T16:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-04-01T16> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/folding_bed> .
@@ -2404,7 +2404,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "医学書ばかり詰まった木製の本棚があった"@ja ;
     kgc:source  "There was a wooden bookshelf full of medical writings."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/have> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott’s_bedroom> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott_s_bedroom> ;
     kgc:time  "1883-04-01T16:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-04-01T16> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/bookshelf> .
@@ -2413,7 +2413,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "寝台のわきに肘掛椅子が一つがあった"@ja ;
     kgc:source  "There was one armrest chair by the bed."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/have> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott’s_bedroom> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott_s_bedroom> ;
     kgc:near   <http://kgc.knowledge-graph.jp/data/SpeckledBand/bed> ;
     kgc:time  "1883-04-01T16:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-04-01T16> ;
@@ -2423,7 +2423,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "壁に寄せて粗末な椅子が一つがあった"@ja ;
     kgc:source  "There was a poor chair on the wall."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/have> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott’s_bedroom> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott_s_bedroom> ;
     kgc:near   <http://kgc.knowledge-graph.jp/data/SpeckledBand/wall> ;
     kgc:time  "1883-04-01T16:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-04-01T16> ;
@@ -2433,7 +2433,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "円卓が一つがあった"@ja ;
     kgc:source  "There was one round table."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/have> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott’s_bedroom> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott_s_bedroom> ;
     kgc:time  "1883-04-01T16:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-04-01T16> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/round_table> .
@@ -2442,7 +2442,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "大きい金庫があった"@ja ;
     kgc:source  "There was a big safe."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/have> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott’s_bedroom> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott_s_bedroom> ;
     kgc:time  "1883-04-01T16:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-04-01T16> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/safe> .
@@ -2636,7 +2636,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/stay> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Holmes> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Watson> ;
-    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
+    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/tonight> ;
     kgc:time  "1883-04-01T23:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-04-01T23:00> .
@@ -2648,7 +2648,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/see> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/man> ;
     kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Crown_Inn> ;
-    kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/window_of_Julia’s_bedroom> .
+    kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/window_of_Julia_s_bedroom> .
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/261>
     rdf:type    kgc:Thought ;
     kgc:source  "父親（ロイロット博士）が帰ってきたら、ヘレンは頭が痛いと言う"@ja ;
@@ -2674,7 +2674,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/go> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen> ;
-    kgc:to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> .
+    kgc:to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> .
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/263>
     rdf:type    kgc:Thought ;
     kgc:source  "父親（ロイロット博士）が夜、ロイロット博士の寝室に行く"@ja ;
@@ -2682,7 +2682,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/go> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott> ;
-    kgc:to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott’s_bedroom> ;
+    kgc:to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott_s_bedroom> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/tonight> ;
     kgc:time  "1883-04-01T21:30:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-04-01T21:30> ;
@@ -2706,8 +2706,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/go> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen> ;
-    kgc:from   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
-    kgc:to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen’s_bedroom> ;
+    kgc:from   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
+    kgc:to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen_s_bedroom> ;
     kgc:how   <http://kgc.knowledge-graph.jp/data/SpeckledBand/quietly> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/SpeckledBand/266> .
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/266>
@@ -2718,7 +2718,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/stay> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Holmes> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Watson> ;
-    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
+    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/tonight> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/SpeckledBand/267> .
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/267>
@@ -2796,7 +2796,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/275>
     rdf:type    kgc:Statement ;
     kgc:source  "ヘレンの姉はロイロット博士の煙草が匂った（ヘレンの発言）"@ja ;
-    kgc:source  "Helen's older sister smelled Roylott's cigarette."@en ;
+    kgc:source  "Helen’s older sister smelled Roylott’s cigarette."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/smell> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia> ;
@@ -2811,8 +2811,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/exist> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/hole> ;
-    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
-    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott’s_bedroom> ;
+    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
+    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott_s_bedroom> ;
     kgc:time  "1881-12-01T10:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1881-12-01T10> .
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/277>
@@ -2867,7 +2867,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "After that, the woman who was sleeping on the bed died."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/die> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Sleeping_Woman> ;
-    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
+    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
     kgc:time  "1881-12-02T00:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1881-12-02T00> .
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/283>
@@ -2885,8 +2885,8 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "The bed was fixed to the floor with metal fittings."@en ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/fixed> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/bed> ;
-    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
-    kgc:to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/floor_of_Julia’s_bedroom> ;
+    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
+    kgc:to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/floor_of_Julia_s_bedroom> ;
     kgc:time  "1881-12-02T00:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1881-12-02T00> ;
     kgc:how   <http://kgc.knowledge-graph.jp/data/SpeckledBand/metal_fittings> ;
@@ -2897,15 +2897,15 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "A bed in the other room is not fixed to the floor."@en ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/notFixed> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/bed> ;
-    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen’s_bedroom> ;
-    kgc:to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/floor_of_Helen’s_bedroom> .
+    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen_s_bedroom> ;
+    kgc:to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/floor_of_Helen_s_bedroom> .
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/286>
     rdf:type    kgc:Situation ;
     kgc:source  "ご婦人（ヘレンの姉）は寝台を動かせなかった"@ja ;
     kgc:source  "Julia could not move the bed."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/cannotMove> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia> ;
-    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
+    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
     kgc:time  "1881-12-02T00:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1881-12-02T00> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/bed> ;
@@ -2922,7 +2922,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/289>
     rdf:type    kgc:Situation ;
     kgc:source  "夜十一時に、ヘレンがホームズに合図した"@ja ;
-    kgc:source  "Helen sent a signal to Holmes at eleven o'clock."@en ;
+    kgc:source  "Helen sent a signal to Holmes at eleven o’clock."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/send> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen> ;
     kgc:whom   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Holmes> ;
@@ -2938,7 +2938,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/go> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Holmes> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Watson> ;
-    kgc:to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
+    kgc:to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
     kgc:time  "1883-04-02T00:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-04-02T00> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/SpeckledBand/291> .
@@ -2949,7 +2949,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/keep> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Holmes> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Watson> ;
-    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
+    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
     kgc:time  "1883-04-02T00:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-04-02T00> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/quiet> ;
@@ -2961,7 +2961,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/turnOff> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Holmes> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Watson> ;
-    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
+    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
     kgc:time  "1883-04-02T00:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-04-02T00> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/lamp> ;
@@ -2972,7 +2972,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notMove> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Holmes> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Watson> ;
-    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
+    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
     kgc:time  "1883-04-02T00:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-04-02T00> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/SpeckledBand/295> .
@@ -2996,14 +2996,14 @@ kgc:Thought rdf:type owl:Class ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notSleep> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Holmes> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Watson> ;
-    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
+    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
     kgc:time  "1883-04-02T00:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-04-02T00> ;
     kgc:because   <http://kgc.knowledge-graph.jp/data/SpeckledBand/296> .
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/296>
     rdf:type    kgc:Situation ;
     kgc:source  "なぜなら，ワトソンの命に関わるから"@ja ;
-    kgc:source  "Because it affect Watson's life."@en ;
+    kgc:source  "Because it affect Watson’s life."@en ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/danger> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Watson> ;
     kgc:time  "1883-04-02T00:00:00"^^xsd:dateTime ;
@@ -3090,7 +3090,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "部屋は真っ暗。"@ja ;
     kgc:source  "The bedroom gets dark."@en ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/dark> ;
-    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
+    kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
     kgc:time  "1883-04-02T01:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-04-02T01> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/SpeckledBand/305> .
@@ -3173,7 +3173,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "Someone set fire to the lamp in the next bedroom."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/turnOn> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/someone> ;
-    kgc:next_to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
+    kgc:next_to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
     kgc:time  "1883-04-02T02:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-04-02T02> ;
     kgc:what   <http://kgc.knowledge-graph.jp/data/SpeckledBand/lamp> ;
@@ -3185,7 +3185,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Watson> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/sit> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/someone> ;
-    kgc:next_to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
+    kgc:next_to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
     kgc:time  "1883-04-02T02:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-04-02T02> ;
     kgc:why   <http://kgc.knowledge-graph.jp/data/SpeckledBand/quietly> ;
@@ -3196,7 +3196,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "Soon, the movements calm down."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/stop> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/man> ;
-    kgc:next_to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
+    kgc:next_to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
     kgc:time  "1883-04-02T03:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-04-02T03> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/SpeckledBand/315> .
@@ -3300,7 +3300,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/325>
     rdf:type    kgc:Statement ;
     kgc:source  "「見たか、ワトソン！」ホームズが叫ぶ。「見たか？」"@ja ;
-    kgc:source  "Looked, Watson! Holmes shouts. 'Did you see it?'."@en ;
+    kgc:source  "Looked, Watson! Holmes shouts. ’Did you see it?’."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/shout> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Holmes> ;
@@ -3353,7 +3353,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/330>
     rdf:type    kgc:Situation ;
     kgc:source  "ひどく青ざめ、恐怖と嫌悪にゆがんだホームズの顔"@ja ;
-    kgc:source  "Holmes' face, severely pale and distorted with fear and loathing"@en ;
+    kgc:source  "Holmes’ face, severely pale and distorted with fear and loathing"@en ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/scare> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Holmes> ;
     kgc:time  "1883-04-02T03:00:00"^^xsd:dateTime ;
@@ -3431,7 +3431,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/338>
     rdf:type    kgc:Statement ;
     kgc:source  "ホームズは「すべてが終わった知らせだ。」と言う"@ja ;
-    kgc:source  "Holmes says 'Everything is over!'."@en ;
+    kgc:source  "Holmes says ’Everything is over!’."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Holmes> ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/end> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Case> ;
@@ -3441,7 +3441,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/339>
     rdf:type    kgc:Statement ;
     kgc:source  "ホームズは「この結末が最善なのかもしれない」と言う"@ja ;
-    kgc:source  "Holmes says 'This ending may be the best'."@en ;
+    kgc:source  "Holmes says ’This ending may be the best’."@en ;
     kgc:infoSource   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Holmes> ;
     kgc:hasProperty   <http://kgc.knowledge-graph.jp/data/predicate/best_result> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/result> ;
@@ -3465,7 +3465,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/go> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Holmes> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Watson> ;
-    kgc:to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott’s_bedroom> ;
+    kgc:to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott_s_bedroom> ;
     kgc:time  "1883-04-02T04:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-04-02T04> ;
     kgc:then   <http://kgc.knowledge-graph.jp/data/SpeckledBand/343> .
@@ -3476,7 +3476,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/exist> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/lanthanum> ;
     kgc:on   <http://kgc.knowledge-graph.jp/data/SpeckledBand/desk> ;
-    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott’s_bedroom> ;
+    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott_s_bedroom> ;
     kgc:time  "1883-04-02T04:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-04-02T04> ;
     kgc:at_the_same_time   <http://kgc.knowledge-graph.jp/data/SpeckledBand/344> .
@@ -3562,7 +3562,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "The whip was found in this bedroom during the daytime."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/see> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Holmes> ;
-    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott’s_bedroom> ;
+    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott_s_bedroom> ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/daytime> ;
     kgc:time  "1883-04-01T14:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-04-01T14> ;
@@ -3570,7 +3570,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/353>
     rdf:type    kgc:Situation ;
     kgc:source  "ロイロット博士のあごは上向きだった"@ja ;
-    kgc:source  "Roylott's jaw was upwards."@en ;
+    kgc:source  "Roylott’s jaw was upwards."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/upward> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/jaw_of_Roylott> ;
     kgc:time  "1883-04-02T04:00:00"^^xsd:dateTime ;
@@ -3579,7 +3579,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/354>
     rdf:type    kgc:Situation ;
     kgc:source  "ロイロット博士は、目を強く拓いていた"@ja ;
-    kgc:source  "Roylott's eyes were strongly open."@en ;
+    kgc:source  "Roylott’s eyes were strongly open."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/open> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott> ;
     kgc:time  "1883-04-02T04:00:00"^^xsd:dateTime ;
@@ -3628,7 +3628,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/359>
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズは「まだらのひも」といった"@ja ;
-    kgc:source  "Holmes said 'a speckled band'."@en ;
+    kgc:source  "Holmes said ’a speckled band’."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/say> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Holmes> ;
     kgc:time  "1883-04-02T04:00:00"^^xsd:dateTime ;
@@ -3658,7 +3658,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/362>
     rdf:type    kgc:Situation ;
     kgc:source  "ホームズは「毒沼蛇」といった"@ja ;
-    kgc:source  "Holmes said 'a poisonous ponder'."@en ;
+    kgc:source  "Holmes said ’a poisonous ponder’."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/say> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Holmes> ;
     kgc:time  "1883-04-02T04:00:00"^^xsd:dateTime ;
@@ -3741,9 +3741,9 @@ kgc:Thought rdf:type owl:Class ;
     kgc:source  "The suspect does not come from the windows and doors."@en ;
     kgc:hasPredicate   <http://kgc.knowledge-graph.jp/data/predicate/notEnter> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Danger> ;
-    kgc:from   <http://kgc.knowledge-graph.jp/data/SpeckledBand/window_of_Julia’s_bedroom> ;
-    kgc:from   <http://kgc.knowledge-graph.jp/data/SpeckledBand/door_of_Julia’s_bedroom> ;
-    kgc:to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom> ;
+    kgc:from   <http://kgc.knowledge-graph.jp/data/SpeckledBand/window_of_Julia_s_bedroom> ;
+    kgc:from   <http://kgc.knowledge-graph.jp/data/SpeckledBand/door_of_Julia_s_bedroom> ;
+    kgc:to   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom> ;
     kgc:time  "1883-04-01T23:00:00"^^xsd:dateTime ;
     kgc:when   <http://kgc.knowledge-graph.jp/data/SpeckledBand/1883-04-01T23> .
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/371>
@@ -3925,7 +3925,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Safe> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/milk> ;
     kgc:subject   <http://kgc.knowledge-graph.jp/data/SpeckledBand/whip> ;
-    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott’s_bedroom> .
+    kgc:where   <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott_s_bedroom> .
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/391>
     rdf:type    kgc:Situation ;
     kgc:source  "博士は蛇を金庫に入れた"@ja ;
@@ -4062,7 +4062,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:AbstractTime;
     rdfs:label     "しばしば"@ja;
     rdfs:label     "occasionally"@en.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen’s_bedroom>
+<http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen_s_bedroom>
     rdf:type    kgc:Place;
     rdfs:label     "ヘレンの寝室"@ja;
     rdfs:label     "Helen’s bedroom"@en;
@@ -4143,7 +4143,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "橋渡しする"@ja;
     rdfs:label     "bridge"@en.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott’s_bedroom>
+<http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott_s_bedroom>
     rdf:type    kgc:Place;
     rdfs:label     "ロイロットの寝室"@ja;
     rdfs:label     "Roylott’s bedroom"@en;
@@ -4151,13 +4151,13 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "ロイロット博士の寝室"@ja;
     rdfs:label     "ロイロット博士の寝室の窓"@ja;
     rdfs:label     "ヘレンの寝室とロイロット博士の寝室"@ja.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/floor_of_Helen’s_bedroom>
+<http://kgc.knowledge-graph.jp/data/SpeckledBand/floor_of_Helen_s_bedroom>
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "ジュリアの寝室の床"@ja;
     rdfs:label     "floor of Helen’s bedroom"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SpeckledBand/floor>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen’s_bedroom>.
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen_s_bedroom>.
 <http://kgc.knowledge-graph.jp/data/predicate/cannotMove>
     rdf:type    kgc:Action;
     rdf:type    kgc:CanNotAction;
@@ -4197,14 +4197,14 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/price>
     rdfs:label     "price"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/door_of_Julia’s_bedroom>
+<http://kgc.knowledge-graph.jp/data/SpeckledBand/door_of_Julia_s_bedroom>
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "ジュリアの寝室のドア"@ja;
     rdfs:label     "door of Julia’s bedroom"@en;
     rdf:type    kgc:OFobj;
     rdfs:label     "ジュリアの寝室の扉"@ja;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SpeckledBand/door>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom>.
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom>.
 <http://kgc.knowledge-graph.jp/data/predicate/wander>
     rdf:type    kgc:Action;
     rdfs:label     "徘徊する"@ja;
@@ -4317,14 +4317,14 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Property;
     rdfs:label     "壊れている"@ja;
     rdfs:label     "broken"@en.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/floor_of_Julia’s_bedroom>
+<http://kgc.knowledge-graph.jp/data/SpeckledBand/floor_of_Julia_s_bedroom>
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "ジュリアの寝室の床"@ja;
     rdfs:label     "floor of Julia’s bedroom"@en;
     rdf:type    kgc:OFobj;
     rdfs:label     "床"@ja;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SpeckledBand/floor>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom>.
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/mother>
     rdfs:label     "mother"@en;
     rdf:type    kgc:Object.
@@ -4453,7 +4453,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/rope>
     rdfs:label     "rope"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom>
+<http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom>
     rdf:type    kgc:Place;
     rdfs:label     "ジュリアの寝室"@ja;
     rdfs:label     "Julia’s bedroom"@en;
@@ -4563,14 +4563,14 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "屋敷の地"@ja;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SpeckledBand/mansion>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott>.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/window_of_Julia’s_bedroom>
+<http://kgc.knowledge-graph.jp/data/SpeckledBand/window_of_Julia_s_bedroom>
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "ジュリアの寝室の窓"@ja;
     rdfs:label     "window of Julia’s bedroom"@en;
     rdf:type    kgc:OFobj;
     rdfs:label     "空いた窓"@ja;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SpeckledBand/window>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom>.
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/cry>
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "鳴き声"@ja;
@@ -4622,7 +4622,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/predicate/Move>
     rdfs:label     "Move"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom>
+<http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom>
     rdfs:label     "Julia’s bedroom"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/old-fashioned>
@@ -4679,7 +4679,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Action;
     rdfs:label     "届く"@ja;
     rdfs:label     "reach"@en.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen’s_mothers_death>
+<http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen_s_mothers_death>
     rdfs:label     "Helen’s mothers death"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/cannotTalk>
@@ -4840,13 +4840,13 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SpeckledBand/wall>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/right_building>.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/walll_of_Julia’s_bedroom>
+<http://kgc.knowledge-graph.jp/data/SpeckledBand/walll_of_Julia_s_bedroom>
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "ジュリアの寝室の壁"@ja;
     rdfs:label     "walll of Julia’s bedroom"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SpeckledBand/walll>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom>.
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/central_building>
     rdfs:label     "central building"@en;
     rdf:type    kgc:Object.
@@ -5070,24 +5070,24 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/predicate/like_steam_gushing_out>
     rdfs:label     "like steam gushing out"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/chimney_of_Julia’s_bedroom>
+<http://kgc.knowledge-graph.jp/data/SpeckledBand/chimney_of_Julia_s_bedroom>
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "ジュリアの寝室の煙突"@ja;
     rdfs:label     "chimney of Julia’s bedroom"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SpeckledBand/chimney>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom>.
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/as_hard_as_he_could>
     rdfs:label     "思い切り"@ja;
     rdfs:label     "as hard as he could"@en;
     rdf:type    kgc:Object.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott’s_bedroom_OR_garden_of_Roylott_OR_Helen’s_bedroom>
+<http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott_s_bedroom_OR_garden_of_Roylott_OR_Helen_s_bedroom>
     rdfs:label     "ロイロットの寝室 OR 庭 OR ヘレンの寝室"@ja;
     rdfs:label     "Roylott’s bedroom OR garden of Roylott OR Helen’s bedroom"@en;
     rdf:type    kgc:ORobj;
-    kgc:orTarget    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott’s_bedroom>;
+    kgc:orTarget    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott_s_bedroom>;
     kgc:orTarget    <http://kgc.knowledge-graph.jp/data/SpeckledBand/garden_of_Roylott>;
-    kgc:orTarget    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen’s_bedroom>.
+    kgc:orTarget    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen_s_bedroom>.
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/asset>
     rdfs:label     "asset"@en;
     rdf:type    kgc:Object.
@@ -5524,7 +5524,7 @@ kgc:Thought rdf:type owl:Class ;
     kgc:Not    <http://kgc.knowledge-graph.jp/data/predicate/satisfied>;
     rdfs:label     "満足しない"@ja;
     rdfs:label     "notSatisfied"@en.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen’s_bedroom>
+<http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen_s_bedroom>
     rdfs:label     "Helen’s bedroom"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/brown_oak_material_that_insects_bites>
@@ -5792,7 +5792,7 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SpeckledBand/neck>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott>.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott’s_bedroom>
+<http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott_s_bedroom>
     rdfs:label     "Roylott’s bedroom"@en;
     rdf:type    kgc:Object.
 <http://kgc.knowledge-graph.jp/data/predicate/give>
@@ -5839,19 +5839,19 @@ kgc:Thought rdf:type owl:Class ;
     rdfs:label     "desk"@en;
     rdfs:label     "細く長い杖のそば"@ja;
     rdfs:label     "卓上"@ja.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/four_walls_of_Julia’s_bedroom>
+<http://kgc.knowledge-graph.jp/data/SpeckledBand/four_walls_of_Julia_s_bedroom>
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "ジュリアの寝室の四方の壁"@ja;
     rdfs:label     "four walls of Julia’s bedroom"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SpeckledBand/four_walls>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia’s_bedroom>.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/window_of_Roylott’s_bedroom>
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Julia_s_bedroom>.
+<http://kgc.knowledge-graph.jp/data/SpeckledBand/window_of_Roylott_s_bedroom>
     rdfs:label     "ロイロット博士の寝室の窓"@ja;
     rdfs:label     "window of Roylott’s bedroom"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SpeckledBand/window>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott’s_bedroom>.
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott_s_bedroom>.
 <http://kgc.knowledge-graph.jp/data/predicate/lookAround>
     rdf:type    kgc:Action;
     rdfs:label     "ながめ回す"@ja;
@@ -5946,7 +5946,7 @@ kgc:Thought rdf:type owl:Class ;
 <http://kgc.knowledge-graph.jp/data/SpeckledBand/eleven_o_clock>
     rdf:type    kgc:AbstractTime;
     rdfs:label     "夜十一時"@ja;
-    rdfs:label     "eleven o'clock"@en.
+    rdfs:label     "eleven o’clock"@en.
 <http://kgc.knowledge-graph.jp/data/predicate/find>
     rdf:type    kgc:Action;
     rdfs:label     "見つける"@ja;
@@ -6301,12 +6301,12 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SpeckledBand/dog_whip>;
     kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Roylott>.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/window_of_Helen’s_bedroom>
+<http://kgc.knowledge-graph.jp/data/SpeckledBand/window_of_Helen_s_bedroom>
     rdfs:label     "ヘレンの寝室の窓"@ja;
     rdfs:label     "window of Helen’s bedroom"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SpeckledBand/window>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen’s_bedroom>.
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen_s_bedroom>.
 <http://kgc.knowledge-graph.jp/data/predicate/fire>
     rdf:type    kgc:Action;
     rdfs:label     "燃やす"@ja;
@@ -6319,13 +6319,13 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:AbstractTime;
     rdfs:label     "夜"@ja;
     rdfs:label     "night"@en.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/wall_of_Helen’s_bedroom>
+<http://kgc.knowledge-graph.jp/data/SpeckledBand/wall_of_Helen_s_bedroom>
     rdf:type    kgc:PhysicalObject;
     rdfs:label     "ヘレンの寝室の壁"@ja;
     rdfs:label     "wall of Helen’s bedroom"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SpeckledBand/wall>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen’s_bedroom>.
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen_s_bedroom>.
 <http://kgc.knowledge-graph.jp/data/predicate/cannotPassThrough>
     rdf:type    kgc:Action;
     rdf:type    kgc:CanNotAction;
@@ -6379,13 +6379,13 @@ kgc:Thought rdf:type owl:Class ;
     rdf:type    kgc:Property;
     rdfs:label     "最善の結果"@ja;
     rdfs:label     "best result"@en.
-<http://kgc.knowledge-graph.jp/data/SpeckledBand/the_time_of_Helen’s_mothers_death>
+<http://kgc.knowledge-graph.jp/data/SpeckledBand/the_time_of_Helen_s_mothers_death>
     rdf:type    kgc:AbstractTime;
     rdfs:label     "ヘレンの母が死んだ当時"@ja;
     rdfs:label     "the time of Helen’s mothers death"@en;
     rdf:type    kgc:OFobj;
     kgc:ofPart    <http://kgc.knowledge-graph.jp/data/SpeckledBand/the_time>;
-    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen’s_mothers_death>.
+    kgc:ofWhole    <http://kgc.knowledge-graph.jp/data/SpeckledBand/Helen_s_mothers_death>.
 <http://kgc.knowledge-graph.jp/data/predicate/want>
     rdf:type    kgc:Action;
     rdfs:label     "したい"@ja;
